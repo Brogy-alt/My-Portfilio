@@ -20,12 +20,18 @@
       </section>
     </main>
   </div>
+  <FooterC />
+
 </template>
 
 <script>
+import FooterC from '@/components/FooterC.vue'
+
 export default {
   name: "HomeView",
-  components: {},
+  components: {
+    FooterC
+  },
 };
 </script>
 
