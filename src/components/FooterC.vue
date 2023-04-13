@@ -1,7 +1,7 @@
 <template>
  <div>
         <footer>
-            <div class="footer ">
+            <div class="footer">
                 <div class="row">
                     <ul class="icons">
                         <li><a href="https://www.facebook.com/index.php"><i id="facebook" class="fa fa-facebook text-light"></i></a></li>
@@ -13,11 +13,11 @@
 
                 <div class="row">
                     <ul>
-                        <li><a class="text-light" href="#">Contact us</a></li>
-                        <li><a class="text-light" href="#">Our Services</a></li>
-                        <li><a class="text-light" href="#">Privacy Policy</a></li>
-                        <li><a class="text-light" href="#">Terms & Conditions</a></li>
-                        <li><a class="text-light" href="#">Career</a></li>
+                        <li><a class="text-light" href="#">Contact me</a></li>
+                        <li><a class="text-light" href="#">Something here</a></li>
+                        <li><a class="text-light" href="#">Something here</a></li>
+                        <li><a class="text-light" href="#">Something here</a></li>
+                        <li><a class="text-light" href="#">Something here</a></li>
                     </ul>
                 </div>
 
