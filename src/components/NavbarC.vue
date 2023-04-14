@@ -5,7 +5,7 @@
     <div class="test">
       <nav class="navbar navbar-expand-lg bg-transparent">
       <div class="container-fluid bg-transparent">
-        <a class="navbar-brand bg-transparent text-light" href="#">Navbar</a>
+        <a class="navbar-brand bg-transparent text-light" href="#">Logo</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
