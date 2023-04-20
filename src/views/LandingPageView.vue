@@ -1,20 +1,20 @@
 <template>
   <div class="home">
     <main>
-      <section id="home">
-        <div class="container-fluid">
-          <NavbarC />
-          <div
-            loading="lazy"
-            class="img1 img-fluid"
-            style="padding-top: 16rem; font-size: 50px"> 
-            
-            <div class="container-fluid col-sm-12">
-              <h1 id="heading-homepage">Brogan Gys</h1>
+      <NavbarC />
+
+
+      <div class="home container d-flex align-items-center justify-content-center">
+        <div class="row">
+            <div class="col landing-text" style="padding-top: 12rem; ">
+                <h6>Welcome to my personal portfolio</h6>
+                <h1 class="text-hi">Hi, I'm <span>Brogan Gys</span></h1>
+                <h3>A Full Stack Software Developer</h3>
             </div>
-          </div>
         </div>
-      </section>
+    </div>
+
+
     </main>
   </div>
   <FooterC />
@@ -39,15 +39,22 @@ export default {
 main {
   min-height: 100vh;
   background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1)),
-    url(https://i.postimg.cc/G9wyZG1N/ashkan-forouzani-mb-Lr6-NEat-MI-unsplash.jpg);
+  url(https://i.postimg.cc/G9wyZG1N/ashkan-forouzani-mb-Lr6-NEat-MI-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+ 
 }
 
 
+.text-hi{
+  font-size: 102px;
+  font-family: 'Fjalla One', sans-serif;
+  position: relative;
+  text-align: center;
+}
 
-h1 {
+span{
   font-family: 'Fjalla One', sans-serif;
   position: relative;
   text-align: center;
@@ -71,10 +78,26 @@ h1 {
   }
 }
 
-/* .text-container {
-  margin-top: 17%;
-  text-align: center;
-} */
+@media (max-width: 400px) {
+  .landing-text span {
+    font-size: 75px !important ;
+   
+  }
+
+  .landing-text  {
+    padding-top: 8rem !important;
+  }
+
+  .landing-text h1{
+    font-size: 75px;
+  }
+
+  .landing-text h3{
+    font-size: 20px;
+  }
+
+}
+
 
 
 </style>

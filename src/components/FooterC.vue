@@ -4,7 +4,7 @@
             <div class="footer">
                 <div class="row">
                     <ul class="icons">
-                        <li><a href="https://www.facebook.com/index.php"><i id="facebook" class="fa fa-facebook text-light"></i></a></li>
+                        <li><a href=""><i id="linkedin" class="fa fa-linkedin text-light"></i></a></li>
                         <li><a href="https://www.instagram.com/?__coig_restricted=1"><i id="ig" class="fa fa-instagram text-light"></i></a></li>
                         <li><a href="https://www.youtube.com/"><i id="yt" class="fa fa-youtube text-light"></i></a></li>
                         <li><a href="https://twitter.com/?lang=en-za"><i id="twitter" class="fa fa-twitter text-light"></i></a></li>
@@ -41,7 +41,7 @@ export default {
 
 <style scoped>
 
-#facebook:hover{
+#linkedin:hover{
   transform: scale(1.1);
   transition: all ease 500ms;
 }
@@ -63,8 +63,9 @@ export default {
     padding: 40px 0px;
     font-family: 'Play', sans-serif;
     text-align: center;
-   
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1)),
     
+
 }
 .footer #copyright {
     width: 100%;
