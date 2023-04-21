@@ -1,13 +1,13 @@
 <template>
- <div>
-        <footer>
+ <div class="">
+        <footer class="position-relative">
             <div class="footer">
                 <div class="row">
                     <ul class="icons">
                         <li><a href=""><i id="linkedin" class="fa fa-linkedin text-light"></i></a></li>
                         <li><a href="https://www.instagram.com/?__coig_restricted=1"><i id="ig" class="fa fa-instagram text-light"></i></a></li>
                         <li><a href="https://www.youtube.com/"><i id="yt" class="fa fa-youtube text-light"></i></a></li>
-                        <li><a href="https://twitter.com/?lang=en-za"><i id="twitter" class="fa fa-twitter text-light"></i></a></li>
+                        <li><a href="..."><i id="github" class="fa-brands fa-github text-light"></i></a></li>
                     </ul>
                 </div>
 
@@ -53,7 +53,7 @@ export default {
   transform: scale(1.1);
   transition: all ease 500ms;
 }
-#twitter:hover{
+#github:hover{
   transform: scale(1.1);
   transition: all ease 500ms;
 }

@@ -1,6 +1,16 @@
 <template>
  <router-view/>
+ <FooterC/>
 </template>
+
+<script>
+  import FooterC from './components/FooterC.vue';
+  export default {
+    components: {
+      FooterC
+    }
+  }
+</script>
 
 <style>
 
@@ -20,6 +30,8 @@
   color: #ffffff;
   overflow-x: hidden
 }
+
+
 
 .test {
   z-index: 1;background-color: transparent;

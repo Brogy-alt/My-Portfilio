@@ -21,13 +21,11 @@
 </template>
 
 <script>
-import FooterC from "@/components/FooterC.vue";
 import NavbarC from "@/components/NavbarC.vue";
 
 export default {
   name: "HomeView",
   components: {
-    FooterC,
     NavbarC,
   },
 };

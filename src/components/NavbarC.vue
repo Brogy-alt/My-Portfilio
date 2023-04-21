@@ -6,7 +6,7 @@
       <nav class="navbar navbar-expand-lg bg-transparent">
       <div class="container-fluid bg-transparent">
         <a class="navbar-brand bg-transparent text-light"  style="font-family: 'Fjalla One', sans-serif; font-size: 30px;" href="#">BG</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler text-bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
@@ -24,7 +24,7 @@
               <a class="nav-link active text-light" aria-current="page" href="#">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="#">Contact</a>
+              <a class="nav-link active text-light" aria-current="page" href="/contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -53,7 +53,13 @@ export default {
     backdrop-filter: blur(5px);
   }  
   
-  
+  .navbar-toggler , .navbar-toggler-icon {
+    color: #ffffff;
+  };
+
+  .navbar-toggler {
+    border-color: white;
+  };
 
 
 </style>
