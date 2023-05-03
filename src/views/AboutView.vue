@@ -150,13 +150,13 @@ export default {
                     name: 'Cassidy Lawrence',
                     reference: 'Peer',
                     image: "https://i.postimg.cc/3Np4BZvr/cassidy-black-and-white.jpg",
-                    message: 'Brogan is an extremely committed worker. He doesnt let go of his attention till the job is done. He works well with others as a team and is always eager to lend a hand when needed. He fosters a great working environment by being extremely respectful and understanding of everyone around him. Hes willing to take on challenges and would be a great asset to any team.'
+                    message: 'Brogan is an extremely committed worker. He does not let go of his attention till the job is done. He works well with others as a team and is always eager to lend a hand when needed. He fosters a great working environment by being extremely respectful and understanding of everyone around him. Hes willing to take on challenges and would be a great asset to any team.'
                 },
                 {
                     name: 'Mueen Slamat',
                     reference: 'Peer',
                     image: "https://i.postimg.cc/P573pXTW/mueen-black-and-white.jpg",
-                    message: 'Meezaan is a chilled and honest guy.He always gives 100% to anything he faces. He will always be willing to help the next person. He is a goal driven individual. A real "COOL" guy.'
+                    message: 'Brogan is a kind-hearted, hard-working, humorous team player. His a passive guy. His design thinking is top-notch. His coding abilities only get better. He supports his peers and motivates others as well as himself. Amazing soccer player and a great music producer as well.'
                 },
                 {
                     name: 'Lazola Makubalo',
@@ -198,6 +198,7 @@ h5 {
 p{
    font-size: 19px;
    font-family: 'Rubik', sans-serif;
+   text-align: start;
 }
 
 #about {
