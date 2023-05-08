@@ -58,10 +58,10 @@
         <div class="col-md text-dark pt-2">
           <div class="row">
                     <ul class="icons" style="font-size: 50px; list-style-type:none; padding-top:5rem">
-                        <li><a href=""><i id="linkedin" class="fa fa-linkedin text-dark" style="padding-bottom: 2rem;"></i></a></li>
-                        <li><a href="https://www.instagram.com/?__coig_restricted=1"><i id="ig" class="fa fa-instagram text-dark" style="padding-bottom: 2rem;"></i></a></li>
-                        <li><a href="https://www.youtube.com/"><i id="yt" class="fa fa-youtube text-dark" style="padding-bottom: 2rem;"></i></a></li>
-                        <li><a href="..."><i id="github" class="fa-brands fa-github text-dark" style="padding-bottom: 2rem;"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/brogan-gys/"><i id="linkedin" class="fa fa-linkedin text-dark" style="padding-bottom: 2rem;"></i></a></li>
+                        <li><a href="https://www.instagram.com/prodbrogy/"><i id="ig" class="fa fa-instagram text-dark" style="padding-bottom: 2rem;"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC13tr7mMjdQfZRaoI0rbTgQ"><i id="yt" class="fa fa-youtube text-dark" style="padding-bottom: 2rem;"></i></a></li>
+                        <li><a href="https://github.com/Brogy-alt"><i id="github" class="fa-brands fa-github text-dark" style="padding-bottom: 2rem;"></i></a></li>
                     </ul>
             </div>
         </div>
