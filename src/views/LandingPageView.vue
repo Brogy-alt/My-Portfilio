@@ -37,7 +37,7 @@ export default {
 main {
   min-height: 100vh;
   background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1)),
-  url(https://i.postimg.cc/G9wyZG1N/ashkan-forouzani-mb-Lr6-NEat-MI-unsplash.jpg);
+  url(https://i.postimg.cc/W4MzbZ0f/ashkan-forouzani-mb-Lr6-NEat-MI-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

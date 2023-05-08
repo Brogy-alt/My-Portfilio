@@ -112,10 +112,13 @@
 main {
   min-height: 100vh;
   background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1)),
-  url(https://i.postimg.cc/JzRqbQ2L/mario-gogh-v-Hk-GKvk-S6-No-unsplash.jpg);
+  url(https://i.postimg.cc/HjGV3tmH/mario-gogh-v-Hk-GKvk-S6-No-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;}
+  background-position: center;
+  background-attachment: fixed;
+}
+  
 
  
 

@@ -21,7 +21,7 @@
               <a class="nav-link active text-light" aria-current="page" href="/resume">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="#">Skills</a>
+              <a class="nav-link active text-light" aria-current="page" href="/skills">Skills</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active text-light" aria-current="page" href="/contact">Contact</a>
