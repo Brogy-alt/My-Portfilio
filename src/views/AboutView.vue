@@ -19,9 +19,10 @@
 
   <section id="about">
 
-    <div class="about-text-section">
-      <h2 class="about-heading" >About me</h2>
-
+    <div class="skills-section">
+    <div class="skills-header">
+     <h2 class="skills-heading text-dark">ABOUT</h2>   
+     </div>
     </div>
 
     
@@ -89,7 +90,13 @@
 
   
   <section id="testimonials">
-        <h6 class="heading">Testimonials</h6>
+        
+    <div class="skills-section">
+    <div class="skills-header">
+     <h2 class="skills-heading text-dark">TESTIMONIALS</h2>   
+     </div>
+    </div>
+
         <div class="testimonials text-center">
               <div class="row" style="gap: 2rem">
                     <div v-for="item in info" :key="item" class="card text-center">
@@ -99,7 +106,7 @@
                       <div class="text">
                           <cite title="Source Title"><b>{{ item.name }}</b></cite>
                           <br>
-                          <h4>{{ item.reference }}</h4>
+                          <h4 style="">{{ item.reference }}</h4>
                           <div class="card-body blockquote">
                             <p class="card-text" style="font-family: 'Fjalla One', sans-serif; padding: 2rem;">{{ item.message }}</p>
                           </div>
@@ -136,31 +143,31 @@ export default {
                 }, 
                 {
                     name: 'Meezaan Davids',
-                    reference: 'Peer',
+                    reference: 'Colleague',
                     image: "https://i.postimg.cc/QdNGkx2v/Meezaan-Profile-black-and-white.jpg",
                     message: 'Brogan has a really bright and innovative mind when it comes to the design of his projects. Brogan to the eye is very introverted but once he opens up he is totally the opposite.'
                 },
                 {
                     name: 'Imraan Bernksen',
-                    reference: 'Peer',
+                    reference: 'Colleague',
                     image: "https://i.postimg.cc/4yrkQ6T5/imraan-black-and-white.jpg",
                     message: 'Brogan has a good judge of character, he is a very friendly person to be around.He is also very passionate about his music producing, I view him as a smart and knowledgeable guy.'
                 },
                 {
                     name: 'Cassidy Lawrence',
-                    reference: 'Peer',
-                    image: "https://i.postimg.cc/3Np4BZvr/cassidy-black-and-white.jpg",
+                    reference: 'Colleague',
+                    image: "https://i.postimg.cc/PrCWLcPv/Picsart-23-05-04-09-12-42-406.jpg",
                     message: 'Brogan is an extremely committed worker. He does not let go of his attention till the job is done. He works well with others as a team and is always eager to lend a hand when needed. He fosters a great working environment by being extremely respectful and understanding of everyone around him. Hes willing to take on challenges and would be a great asset to any team.'
                 },
                 {
                     name: 'Mueen Slamat',
-                    reference: 'Peer',
+                    reference: 'Colleague',
                     image: "https://i.postimg.cc/P573pXTW/mueen-black-and-white.jpg",
                     message: 'Brogan is a kind-hearted, hard-working, humorous team player. His a passive guy. His design thinking is top-notch. His coding abilities only get better. He supports his peers and motivates others as well as himself. Amazing soccer player and a great music producer as well.'
                 },
                 {
                     name: 'Lazola Makubalo',
-                    reference: 'Peer',
+                    reference: 'Colleague',
                     image: "https://i.postimg.cc/qMRx8Pmj/Lazola-black-and-white.jpg",
                     message: 'Brogan likes learning new stuff, he is a team player and he is someone who is always on time. I can assure you that he can be a great asset to your company.'
                 }
@@ -193,7 +200,33 @@ h3,
 h4,
 h5 {
   color: black;
+  font-family: 'Fjalla One', sans-serif;
 }
+
+.skills-section{
+padding-top: 20px;
+}
+
+.skills-header{
+text-align: center;
+color: #fff;
+padding: 1rem;
+position: relative;
+font-family: 'Fjalla One', sans-serif;
+}
+
+.skills-header:after{
+content: '';
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+width: 100px;
+height: 4px;
+background-color: #222021;
+border-radius: 2px;
+}
+
 
 p{
    font-size: 19px;
@@ -378,6 +411,38 @@ font-size: 15px !important;
     line-height: 75px;
     margin: -60px auto 0 auto;
   }
+
+  @media (max-width: 400px) {
+  .icons {
+    display: flex !important ;
+    gap: 50px;
+    padding-left: 19px;
+    padding-top: 1rem !important;
+    font-size: 35px !important;;
+   
+  }
+}
+
+@media (max-width: 300px) {
+  .card {
+    width: 15rem;
+    height: 15rem;
+  }
+  
+  .card img {
+    padding: 5px;
+  }
+  
+  .testimonials {
+    padding: 50px;
+  }
+  
+  .testimonials .card {
+    margin-top: 30px;
+  }
+}
+
+
 
 
 </style>

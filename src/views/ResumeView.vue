@@ -19,6 +19,13 @@
           </div>
         </section>
       </main>
+      
+
+      <div class="skills-section">
+    <div class="skills-header">
+     <h2 class="skills-heading text-dark">TIMELINE</h2>   
+     </div> 
+     </div>
 
       <div class="page">
   <div class="timeline">
@@ -126,6 +133,33 @@ main {
   font-family: 'Fjalla One', sans-serif;
 }
 
+p,h2,h3,h3,h4,h5{
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.skills-section{
+padding-top: 20px;
+}
+
+.skills-header{
+text-align: center;
+color: #fff;
+padding: 1rem;
+position: relative;
+font-family: 'Fjalla One', sans-serif;
+}
+
+.skills-header:after{
+content: '';
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+width: 100px;
+height: 4px;
+background-color: #222021;
+border-radius: 2px;
+}
 
 /*
 !!!!
