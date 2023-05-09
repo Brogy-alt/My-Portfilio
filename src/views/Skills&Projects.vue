@@ -24,7 +24,7 @@
     <div class="skills-header">
      <h2 class="skills-heading text-dark">SKILLS</h2>   
      </div>
-     <div class="skills-container">
+     <div class="skills-container" style=" padding-top: 5rem;">
        
       <div class="skills-box">
        <div class="skills-title">
@@ -44,7 +44,7 @@
         <img src="https://i.postimg.cc/QMG6t3sS/css-icon.png" alt="" class="skills-icons">
         
         </div>
-        <h3>CSS3</h3>
+        <h3>CSS</h3>
         </div>
      
        </div>
@@ -139,10 +139,94 @@
     
        
      </div>
-
-
     </div>
-  
+
+    <section id="project-page">
+          <div class="container-fluid ">
+            <div class="row d-flex flex-column flex-md-row">
+              <div loading="lazy" class="img1 img-fluid">
+                <div class="home-text col">
+                  <h1 
+                    id="heading-projectpage"
+                    style="padding-top: 18rem; font-size: 50px"
+                    class="lead display-6">
+                    PROJECTS
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        
+          <div class="skills-section">
+    <div class="skills-header" >
+     <h2 class="skills-heading text-dark">PROJECTS</h2>   
+     </div>
+
+     <!-- <section class="projects" style=" padding-top: 5rem;" >
+
+
+
+</section> -->
+
+<div class="skills-container" style=" padding-top: 5rem;">
+       
+       
+         <div class="card" style="width: 28rem; height: 22rem; ">
+  <img src="https://i.postimg.cc/nLMDZrSN/Capstone-project.png" class="card-img-top" alt="capstone project">
+  <div class="card-body">
+    <h5 class="card-title">Capstone Project (Virtuverse)</h5>
+    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+  </div>
+
+
+  <div class="card-body">
+    <a href="https://virtuverse-capstone-proj-12470.web.app/" class="card-link"><button>Got to site</button></a>
+   
+   <a href="https://github.com/Brogy-alt/Virtuverse_Capstone-project/tree/frontend" class="card-link"> <button>Github</button></a>
+
+    <!-- <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a> -->
+  </div>
+</div>
+
+<div class="card" style="width: 28rem; height: 22rem;">
+  <img src="https://i.postimg.cc/HLZrBdLt/The-kit-collective-duo-word-press-project.png" class="card-img-top" alt="wordpress project">
+  <div class="card-body">
+    <h5 class="card-title" style="padding-top: 20px;">Wordpress Project (The KitCollective)</h5>
+    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+  </div>
+
+  <div class="card-body">
+    <a href="https://dev-thekitcollective.pantheonsite.io/" class="card-link"><button>Got to site</button></a>
+    <!-- <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a> -->
+  </div>
+</div>
+
+<div class="card" style="width: 28rem; height: 22rem;">
+  <img src="https://i.postimg.cc/bNxHLSfH/javascript-project.png" class="card-img-top" alt="javascript project">
+  <div class="card-body">
+    <h5 class="card-title" style="padding-top: 20px;" >Javascript Project </h5>
+    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+  </div>
+
+  <div class="card-body">
+    <a href="https://brogans-javascript-project.netlify.app/" class="card-link"><button>Got to site</button></a>
+   
+    <a href="https://github.com/Brogy-alt/Javascript_Final_Project" class="card-link"> <button>Github</button></a>
+    
+    <!-- <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a> -->
+  </div>
+</div>
+         
+ </div>
+         </div>
+    
+
+
   
   </template>
   
@@ -181,6 +265,8 @@ p,h2,h3,h3,h4,h5{
 
 .skills-section{
 padding-top: 20px;
+min-height: 100vh;
+width: 100%;
 }
 
 .skills-header{
@@ -188,6 +274,7 @@ text-align: center;
 color: #fff;
 padding: 1rem;
 position: relative;
+
 }
 
 .skills-header:after{
@@ -241,7 +328,7 @@ position: relative;
 content: '';
 position:absolute;
 bottom: 0;
-rigth: 50%;
+right: 50%;
 width:20px;
 height:4px;
 border-radius: 2px 0 0 2px;
@@ -304,6 +391,75 @@ margin-top: 0.5rem;
  padding: 2rem 50px;
  }
 }
+
+
+
+button {
+ appearance: none;
+ background-color: transparent;
+ border: 0.125em solid #1A1A1A;
+ border-radius: 0.9375em;
+ box-sizing: border-box;
+ color: #3B3B3B;
+ cursor: pointer;
+ display: inline-block;
+ font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+ font-size: 10px;
+ font-weight: 600;
+ line-height: normal;
+ margin: 0;
+ min-height: 3.75em;
+ min-width: 0;
+ outline: none;
+ padding: 1em 2.3em;
+ text-align: center;
+ text-decoration: none;
+ transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+ user-select: none;
+ -webkit-user-select: none;
+ touch-action: manipulation;
+ will-change: transform;
+}
+
+button:disabled {
+ pointer-events: none;
+}
+
+button:hover {
+ color: #fff;
+ background-color: #1A1A1A;
+ box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+ transform: translateY(-2px);
+}
+
+button:active {
+ box-shadow: none;
+ transform: translateY(0);
+}
+
+/* ###############################################SKILLS################################################ */
+
+
+#project-page{
+  min-height: 100vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.035), rgba(0, 0, 0, 1)),
+  url(https://i.postimg.cc/tgmxQsZc/hal-gatewood-t-Zc3vj-PCk-Q-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+#heading-projectpage {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+
+
+
+
+
 
 
   </style>

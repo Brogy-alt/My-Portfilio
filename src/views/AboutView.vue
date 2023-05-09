@@ -440,8 +440,20 @@ font-size: 15px !important;
   .testimonials .card {
     margin-top: 30px;
   }
+  .blockquote p {
+    font-size: 12px;
+    padding: 1rem;
+  }
+  
+  .text h4 {
+    font-size: 16px;
+    padding: 0.5rem;
+  }
+  
+  .text cite {
+    font-size: 12px;
 }
-
+}
 
 
 

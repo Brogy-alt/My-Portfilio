@@ -25,7 +25,7 @@
     <section class="container">
       <div class="contact">
         <h2 class="text-dark pt-4 pb-3">Contact me</h2>
-        <!-- <form @submit.prevent="userRegister">
+        <form @submit.prevent="userRegister">
           <br />
 
           <div class="form-outline">
@@ -96,70 +96,14 @@
               required
             ></textarea>
           </div>
-          <div class="button">
+          <div class="button" style="padding-top: 1rem;">
             <input type="submit" value="submit" />
           </div>
           <br />
-        </form> -->
+        </form>
       </div>
 
-      <div class="row g-3">
-     
-        <form action="">
-            
-        </form>
-            <div class="col">
-              <div class="form-outline">
-                <label class="text-dark" for="#firstname" style="font-size: 20px"
-                  >Name</label
-                >
-                <input
-                  id="firstname"
-                  class="form-control"
-                  name="firstName"
-                  type="text"
-                  placeholder="Enter your name"
-                  required
-                />
-              </div>
-    
-              <div>
-                <label class="text-dark" for="#Email" style="font-size: 20px">Email</label>
-                <input id="surname" class="form-control" name="surname" type="text" placeholder="Enter your Email" required/>
-              </div>
-            </div>
-            <div class="col">
-              <div>
-                <label class="text-dark" for="#surname" style="font-size: 20px"
-                  >Surname</label
-                >
-                <input  id="surname" class="form-control" name="surname" type="text" placeholder="Enter your surname" required
-                />
-              </div>
-    
-              <div>
-                <label class="text-dark" for="#number" style="font-size: 20px">Number</label>
-                <input id="surname" class="form-control" name="surname" type="number" placeholder="Enter your Number" required/>
-              </div>
-            </div>
-            <div>
-              <label class="text-dark" for="#message" style="font-size: 20px"
-                >Message</label
-              >
-              <textarea
-                name="message"
-                class="form-control"
-                cols="45"
-                rows="5"
-                placeholder="Enter your message"
-                required
-              ></textarea>
-            </div>
-       
-        <div class="button">
-          <input type="submit" value="submit" />
-        </div>
-      </div>
+
     </section>
   </div>
 </template>
