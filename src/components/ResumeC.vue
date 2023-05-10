@@ -424,12 +424,6 @@ p:last-child{
 }
 
 
-@media (max-width: 400px) {
-  .linktr__goal{
-
-  }
-  
-}
 
   </style>
   

@@ -425,7 +425,7 @@
     }
   }
   
-  @media (max-width: 300px) {
+  @media (max-width: 490px) {
     .card {
       width: 15rem;
       height: 15rem;
