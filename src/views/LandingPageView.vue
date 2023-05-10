@@ -1,6 +1,6 @@
 <template>
 <main>
-  <NavbarC />
+  <!-- <NavbarC /> -->
   <div class="home">
       <div class="home container d-flex align-items-center justify-content-center">
         <div class="row">
@@ -19,12 +19,12 @@
 </template>
 
 <script>
-import NavbarC from "@/components/NavbarC.vue";
+// import NavbarC from "@/components/NavbarC.vue";
 
 export default {
   name: "HomeView",
   components: {
-    NavbarC,
+    // NavbarC,
   },
 };
 </script>
