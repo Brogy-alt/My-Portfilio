@@ -3,7 +3,7 @@
     <div>
         <header>
     <div class="test">
-      <nav class="navbar navbar-expand-lg fixed-top">
+      <nav class="navbar navbar-expand-lg sticky">
       <div class="container-fluid bg-transparent">
         <a class="navbar-brand bg-transparent text-light"  style="font-family: 'Fjalla One', sans-serif; font-size: 25px;" href="#">.PORTFOLIO</a>
         <button class="navbar-toggler text-bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

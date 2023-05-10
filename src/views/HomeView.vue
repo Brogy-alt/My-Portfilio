@@ -1,6 +1,6 @@
 <template>
     <main>
-      <MenuC />
+        <MenuC />
       <section id="about">
         <div class="home">
       <div class="home container d-flex align-items-center justify-content-center">
@@ -20,14 +20,14 @@
 </template>
 
 <script>
-// import MenuC from "@/components/MenuC.vue";
+import MenuC from "@/components/MenuC.vue";
 
-// export default {
-//   name: "HomeView",
-//   components: {
-//     MenuC,
-//   },
-// };
+export default {
+  name: "HomeView",
+  components: {
+    MenuC,
+  },
+};
 </script>
 
 <style scoped>
