@@ -24,7 +24,12 @@
     <div>
       <section class="container">
         <div class="contact">
-          <h2 class="text-dark pt-4 pb-3">Contact me</h2>
+            <div class="skills-section">
+    <div class="skills-header">
+     <h2 class="skills-heading text-dark">CONTACT ME</h2>   
+     </div> 
+     </div>
+          <h2 class="text-dark pt-4 pb-3"></h2>
           <form @submit.prevent="userRegister">
             <br />
   
@@ -124,7 +129,7 @@
   main {
     min-height: 100vh;
     background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1)),
-      url(https://i.postimg.cc/Wp80HxDG/rupixen-com-yd-Teom-wtoc-unsplash.jpg);
+    url(https://i.postimg.cc/Wp80HxDG/rupixen-com-yd-Teom-wtoc-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -189,5 +194,32 @@
   .button {
     padding-bottom: 2rem;
   }
+
+  .skills-section{
+padding-top: 20px;
+width: 100%;
+}
+
+.skills-header{
+text-align: center;
+color: #fff;
+padding: 1rem;
+position: relative;
+
+}
+
+.skills-header:after{
+content: '';
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+width: 100px;
+height: 4px;
+background-color: #222021;
+border-radius: 2px;
+}
+
+  
   </style>
   
