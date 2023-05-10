@@ -4,10 +4,10 @@
             <div class="footer">
                 <div class="row">
                     <ul class="icons">
-                        <li><a href="https://www.linkedin.com/in/brogan-gys/"><i id="linkedin" class="fa fa-linkedin text-light"></i></a></li>
-                        <li><a href="https://www.instagram.com/prodbrogy/"><i id="ig" class="fa fa-instagram text-light"></i></a></li>
-                        <li><a href="https://www.youtube.com/channel/UC13tr7mMjdQfZRaoI0rbTgQ"><i id="yt" class="fa fa-youtube text-light"></i></a></li>
-                        <li><a href="https://github.com/Brogy-alt"><i id="github" class="fa-brands fa-github text-light"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/brogan-gys/"><i id="linkedin" class="fa fa-linkedin text-light" target="_blank"></i></a></li>
+                        <li><a href="https://www.instagram.com/prodbrogy/"><i id="ig" class="fa fa-instagram text-light" target="_blank"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC13tr7mMjdQfZRaoI0rbTgQ"><i id="yt" class="fa fa-youtube text-light" target="_blank"></i></a></li>
+                        <li><a href="https://github.com/Brogy-alt"><i id="github" class="fa-brands fa-github text-light" target="_blank"></i></a></li>
                     </ul>
                 </div>
 
@@ -21,7 +21,7 @@
                         <li><a class="about text-light" href="/about">ABOUT</a></li>
                         <li><a class="resume text-light" href="/resume">RESUME</a></li>
                         <li><a class="skills text-light" href="/skills">SKILLS</a></li>
-                        <li><a class="contactme text-light" href="/contact">CONTACT ME</a></li>
+                        <li><a class="contactme text-light" href="/contact" >CONTACT ME</a></li>
                     </ul>
                 </div>
 
