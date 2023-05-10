@@ -1,9 +1,5 @@
 <template>
   <div class="home">
-    <main>
-      <NavbarC />
-
-
       <div class="home container d-flex align-items-center justify-content-center">
         <div class="row">
             <div class="col landing-text" style="padding-top: 12rem; ">
@@ -13,28 +9,20 @@
             </div>
         </div>
     </div>
-
-
-    </main>
   </div>
-  <FooterC />
 </template>
 
 <script>
-import NavbarC from "@/components/NavbarC.vue";
 
-export default {
+export default{
   name: "HomeView",
-  components: {
-    NavbarC,
-  },
 };
 </script>
 
 <style scoped>
 
 
-main {
+.home {
   min-height: 100vh;
   background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1)),
   url(https://i.postimg.cc/W4MzbZ0f/ashkan-forouzani-mb-Lr6-NEat-MI-unsplash.jpg);
