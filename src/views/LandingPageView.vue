@@ -1,4 +1,5 @@
 <template>
+<main>
   <NavbarC />
   <div class="home">
       <div class="home container d-flex align-items-center justify-content-center">
@@ -13,12 +14,14 @@
 
 
   </div>
+</main>
+  <FooterC />
 </template>
 
 <script>
 import NavbarC from "@/components/NavbarC.vue";
 
-export default{
+export default {
   name: "HomeView",
   components: {
     NavbarC,
@@ -29,13 +32,14 @@ export default{
 <style scoped>
 
 
-.home {
+main {
   min-height: 100vh;
   background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1)),
   url(https://i.postimg.cc/W4MzbZ0f/ashkan-forouzani-mb-Lr6-NEat-MI-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: auto;
  
 }
 
