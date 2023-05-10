@@ -18,10 +18,10 @@
                     
                     <ul>
                         <li><a class="home text-light" href="/">HOME</a></li>
-                        <li><a class="about text-light" href="/about">ABOUT</a></li>
-                        <li><a class="resume text-light" href="/resume">RESUME</a></li>
-                        <li><a class="skills text-light" href="/skills">SKILLS</a></li>
-                        <li><a class="contactme text-light" href="/contact" >CONTACT ME</a></li>
+                        <li><a class="about text-light" href="#about-page">ABOUT</a></li>
+                        <li><a class="resume text-light" href="#resume-page">RESUME</a></li>
+                        <li><a class="skills text-light" href="#skills-page">SKILLS</a></li>
+                        <li><a class="contactme text-light" href="#Contact-page" >CONTACT ME</a></li>
                     </ul>
                 </div>
 
