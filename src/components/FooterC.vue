@@ -4,10 +4,10 @@
             <div class="footer">
                 <div class="row">
                     <ul class="icons">
-                        <li><a href="https://www.linkedin.com/in/brogan-gys/"><i id="linkedin" class="fa fa-linkedin text-light" target="_blank"></i></a></li>
-                        <li><a href="https://www.instagram.com/prodbrogy/"><i id="ig" class="fa fa-instagram text-light" target="_blank"></i></a></li>
-                        <li><a href="https://www.youtube.com/channel/UC13tr7mMjdQfZRaoI0rbTgQ"><i id="yt" class="fa fa-youtube text-light" target="_blank"></i></a></li>
-                        <li><a href="https://github.com/Brogy-alt"><i id="github" class="fa-brands fa-github text-light" target="_blank"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/brogan-gys/" target="_blank"><i id="linkedin" class="fa fa-linkedin text-light" ></i></a></li>
+                        <li><a href="https://www.instagram.com/prodbrogy/" target="_blank"><i id="ig" class="fa fa-instagram text-light" ></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC13tr7mMjdQfZRaoI0rbTgQ"  target="_blank"><i id="yt" class="fa fa-youtube text-light"></i></a></li>
+                        <li><a href="https://github.com/Brogy-alt" target="_blank"><i id="github" class="fa-brands fa-github text-light" ></i></a></li>
                     </ul>
                 </div>
 

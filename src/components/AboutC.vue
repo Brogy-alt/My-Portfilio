@@ -59,10 +59,10 @@
           <div class="col-md text-dark pt-2">
             <div class="row">
                       <ul class="icons" style="font-size: 50px; list-style-type:none; padding-top:5rem">
-                          <li><a href="https://www.linkedin.com/in/brogan-gys/"><i id="linkedin" class="fa fa-linkedin text-dark" style="padding-bottom: 2rem;"></i></a></li>
-                          <li><a href="https://www.instagram.com/prodbrogy/"><i id="ig" class="fa fa-instagram text-dark" style="padding-bottom: 2rem;"></i></a></li>
-                          <li><a href="https://www.youtube.com/channel/UC13tr7mMjdQfZRaoI0rbTgQ"><i id="yt" class="fa fa-youtube text-dark" style="padding-bottom: 2rem;"></i></a></li>
-                          <li><a href="https://github.com/Brogy-alt"><i id="github" class="fa-brands fa-github text-dark" style="padding-bottom: 2rem;"></i></a></li>
+                          <li><a href="https://www.linkedin.com/in/brogan-gys/" target="_blank"><i id="linkedin" class="fa fa-linkedin text-dark" style="padding-bottom: 2rem;"></i></a></li>
+                          <li><a href="https://www.instagram.com/prodbrogy/" target="_blank"><i id="ig" class="fa fa-instagram text-dark" style="padding-bottom: 2rem;"></i></a></li>
+                          <li><a href="https://www.youtube.com/channel/UC13tr7mMjdQfZRaoI0rbTgQ" target="_blank"><i id="yt" class="fa fa-youtube text-dark" style="padding-bottom: 2rem;"></i></a></li>
+                          <li><a href="https://github.com/Brogy-alt" target="_blank"><i id="github" class="fa-brands fa-github text-dark" style="padding-bottom: 2rem;"></i></a></li>
                       </ul>
               </div>
           </div>
@@ -146,7 +146,7 @@
                   {
                       name: 'Meezaan Davids',
                       reference: 'Colleague',
-                      image: "https://i.postimg.cc/QdNGkx2v/Meezaan-Profile-black-and-white.jpg",
+                      image: "https://i.postimg.cc/BbGgfnF1/Meezaan-Profile-black-and-white.jpg",
                       message: 'Brogan has a really bright and innovative mind when it comes to the design of his projects. Brogan to the eye is very introverted but once he opens up he is totally the opposite.'
                   },
                   {
@@ -158,13 +158,13 @@
                   {
                       name: 'Cassidy Lawrence',
                       reference: 'Colleague',
-                      image: "https://i.postimg.cc/PrCWLcPv/Picsart-23-05-04-09-12-42-406.jpg",
+                      image: "https://i.postimg.cc/8CQsHfgW/Picsart-23-05-04-09-12-42-406.jpg",
                       message: 'Brogan is an extremely committed worker. He does not let go of his attention till the job is done. He works well with others as a team and is always eager to lend a hand when needed. He fosters a great working environment by being extremely respectful and understanding of everyone around him. Hes willing to take on challenges and would be a great asset to any team.'
                   },
                   {
                       name: 'Mueen Slamat',
                       reference: 'Colleague',
-                      image: "https://i.postimg.cc/P573pXTW/mueen-black-and-white.jpg",
+                      image: "https://i.postimg.cc/YSWY2wMN/mueen-black-and-white.jpg",
                       message: 'Brogan is a kind-hearted, hard-working, humorous team player. His a passive guy. His design thinking is top-notch. His coding abilities only get better. He supports his peers and motivates others as well as himself. Amazing soccer player and a great music producer as well.'
                   },
                   {
