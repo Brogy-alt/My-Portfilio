@@ -1,6 +1,6 @@
 <template>
   <main>
-    <NavbarC />
+    <MenuC />
     <section class="contact-main">
       <section id="contact">
         <div class="container-fluid img-fluid">
@@ -108,9 +108,9 @@
   </div>
 </template>
 <script>
-import NavbarC from "@/components/NavbarC.vue";
+import MenuC from "@/components/MenuC.vue";
 export default {
-  components: { NavbarC },
+  components: { MenuC },
 };
 </script>
 <style scoped>

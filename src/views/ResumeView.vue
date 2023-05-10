@@ -3,7 +3,7 @@
       <main>
         <section id="skills-page">
           <div class="container-fluid ">
-            <NavbarC/>
+            <MenuC/>
             <div class="row d-flex flex-column flex-md-row">
               <div loading="lazy" class="img1 img-fluid">
                 <div class="home-text col">
@@ -95,13 +95,13 @@
   
   <script>
 
-  import NavbarC from '@/components/NavbarC.vue'
+  import MenuC from '@/components/MenuC.vue'
   
   export default {
     name: "HomeView",
     components: {
 
-      NavbarC
+      MenuC
     },
     methods: {
     downloadCV() {

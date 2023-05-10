@@ -1,6 +1,6 @@
 <template>
   <main>
-    <NavbarC />
+    <MenuC />
     <section id="about">
       <div class="container-fluid img-fluid">
         <div class="row d-flex flex-column flex-md-row">
@@ -124,13 +124,13 @@
 
 
 
-import NavbarC from '@/components/NavbarC.vue'
+import MenuC from '@/components/MenuC.vue'
 
 export default {
   name: "HomeView",
   components: {
  
-    NavbarC
+    MenuC
   },
   data() {
         return {
