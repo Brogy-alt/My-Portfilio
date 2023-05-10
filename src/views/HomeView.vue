@@ -1,7 +1,7 @@
 <template>
     <main>
-        <MenuC />
-      <section id="about">
+        <section id="about">
+          <MenuC />
         <div class="home">
       <div class="home container d-flex align-items-center justify-content-center">
         <div class="row">
