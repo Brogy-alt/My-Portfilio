@@ -7,26 +7,26 @@ const routes = [
     name: 'home',
     component: HomeView
   },
-  {
-    path: '/about',
-    name: 'about',
-    component: () => import('../views/AboutView.vue')
-  },
-  {
-    path: '/resume',
-    name: 'resume',
-    component: () => import('../views/ResumeView.vue')
-  },
-  {
-    path: '/contact',
-    name: 'contact',
-    component: () => import('../views/ContactView.vue')
-  },
-  {
-    path: '/skills',
-    name: 'skills',
-    component: () => import('../views/Skills&Projects.vue')
-  }
+  // {
+  //   path: '/about',
+  //   name: 'about',
+  //   component: () => import('../views/AboutC.vue')
+  // },
+  // {
+  //   path: '/resume',
+  //   name: 'resume',
+  //   component: () => import('../views/ResumeC.vue')
+  // },
+  // {
+  //   path: '/contact',
+  //   name: 'contact',
+  //   component: () => import('../views/ContactC.vue')
+  // },
+  // {
+  //   path: '/skills',
+  //   name: 'skills',
+  //   component: () => import('../views/SkillsC.vue')
+  // }
 ]
 
 const router = createRouter({

@@ -16,16 +16,16 @@
               <a class="nav-link active text-light" aria-current="page" href="/">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="/about">ABOUT</a>
+              <a class="nav-link active text-light" aria-current="page" href="#about-page">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="/resume">RESUME</a>
+              <a class="nav-link active text-light" aria-current="page" href="#resume-page">RESUME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="/skills">SKILLS</a>
+              <a class="nav-link active text-light" aria-current="page" href="#skills-page">SKILLS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="/contact">CONTACT</a>
+              <a class="nav-link active text-light" aria-current="page" href="#Contact-page">CONTACT</a>
             </li>
           </ul>
         </div>
@@ -52,19 +52,42 @@
 </div>
       </section>
     </main>
+
+<div id="about-page">
+   <AboutC/>
+</div>
+
+<div id="resume-page">
+    <ResumeC/>
+</div>
+
+<div id="Skills-page">
+    <SkillsC/>
+</div>
+
+<div id="Contact-page">
+    <ContactC/>
+</div>
   
   <FooterC />
 </template>
 
 <script>
-// import MenuC from "@/components/MenuC.vue";
+import AboutC from '@/components/AboutC.vue';
 
-// export default {
-//   name: "HomeView",
-//   components: {
-//     MenuC,
-//   },
-// };
+import ResumeC from '@/components/ResumeC.vue';
+
+import SkillsC from '@/components/SkillsC.vue';
+
+import ContactC from '@/components/ContactC.vue';
+
+
+export default {
+  name: "HomeView",
+  components: {
+    AboutC,ResumeC,SkillsC,ContactC
+  },
+};
 </script>
 
 <style scoped>
