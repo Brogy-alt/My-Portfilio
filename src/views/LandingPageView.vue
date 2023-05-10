@@ -1,6 +1,7 @@
 <template>
+    <NavbarC />
 <main>
-  <NavbarC />
+
   <div class="home">
       <div class="home container d-flex align-items-center justify-content-center">
         <div class="row">
