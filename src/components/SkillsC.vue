@@ -9,7 +9,7 @@
                 <div class="home-text col">
                   <h1 
                     id="heading-skillspage"
-                    style="padding-top: 15rem; font-size: 50px"
+                    style="padding-top: 18rem; font-size: 50px"
                     class="lead display-6">
                     SKILLS AND PROJECTS
                   </h1>
@@ -170,7 +170,7 @@
 
 </section> -->
 
-<div class="skills-container" style=" padding-top: 5rem;">
+<div class="project-container" style=" padding-top: 6rem;">
        
        
          <div class="card" style="width: 28rem; height: 22rem; ">
@@ -300,6 +300,17 @@ padding: 1rem 80px;
 font-size: 1.2rem;
 }
 
+.project-container{
+  display: grid;
+grid-tempLate-columns: repeat(5, 1fr);
+justify-content:center;
+align-items:center;
+text-align: center;
+grid-gap:1rem;
+padding: 1rem 80px;
+font-size: 1.2rem;
+}
+
 .skills-box{
 padding: 1rem;
 color: #000;
@@ -379,14 +390,14 @@ color: #333;
 margin-top: 0.5rem;
 }
 @media screen and (max-width:990px){
- .skills-container{
+ .skills-container ,.project-container{
  grid-tempLate-columns: repeat(2, 1fr);
  padding: 2rem 50px;
  }
 }
 
 @media screen and (max-width:650px){
- .skills-container{
+ .skills-container ,.project-container{
  grid-tempLate-columns:2fr;
  padding: 2rem 50px;
  }
@@ -403,9 +414,9 @@ button {
  color: #3B3B3B;
  cursor: pointer;
  display: inline-block;
- font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
- font-size: 10px;
- font-weight: 600;
+ font-family:'Fjalla One', sans-serif;
+ font-size: 13px;
+ font-weight: 700;
  line-height: normal;
  margin: 0;
  min-height: 3.75em;

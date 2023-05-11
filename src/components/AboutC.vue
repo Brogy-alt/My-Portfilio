@@ -6,7 +6,7 @@
           <div class="row d-flex flex-column flex-md-row">
             <div loading="lazy" class="img1">
               <div class="about-text col">
-                <h1 id="heading-aboutpage" style="padding-top: 15rem; font-size: 50px" class="lead display-6">
+                <h1 id="heading-aboutpage" style="padding-top: 18rem; font-size: 50px" class="lead display-6">
                   ABOUT & TESTIMONIALS
                 </h1>
               </div>
@@ -78,7 +78,7 @@
           <div class="row d-flex flex-column flex-md-row">
             <div loading="lazy" class="img1">
               <div class="testimonial-text col">
-                <h1 id="heading-testimonial" style="padding-top: 19rem; font-size: 50px" class="lead display-6">
+                <h1 id="heading-testimonial" style="padding-top: 18rem; font-size: 50px" class="lead display-6">
                   TESTIMONIALS
                 </h1>
               </div>
