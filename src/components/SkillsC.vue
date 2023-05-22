@@ -184,12 +184,13 @@
   <div class="card-body">
     <a href="https://virtuverse-capstone-proj-12470.web.app/" class="card-link"><button>Got to site</button></a>
    
-   <a href="https://github.com/Brogy-alt/Virtuverse_Capstone-project/tree/frontend" class="card-link"> <button>Github</button></a>
+   <!-- <a href="https://github.com/Brogy-alt/Virtuverse_Capstone-project/tree/frontend" class="card-link"> <button>Github</button></a> -->
 
     <!-- <a href="#" class="card-link">Card link</a>
     <a href="#" class="card-link">Another link</a> -->
   </div>
 </div>
+
 
 <div class="card" style="width: 28rem; height: 22rem;">
   <img src="https://i.postimg.cc/HLZrBdLt/The-kit-collective-duo-word-press-project.png" class="card-img-top" alt="wordpress project">
@@ -206,16 +207,16 @@
 </div>
 
 <div class="card" style="width: 28rem; height: 22rem;">
-  <img src="https://i.postimg.cc/bNxHLSfH/javascript-project.png" class="card-img-top" alt="javascript project">
+  <img src="https://i.postimg.cc/8Cp2XrQM/Personal-site.png" class="card-img-top" alt="personal site ">
   <div class="card-body">
-    <h5 class="card-title" style="padding-top: 20px;" >Javascript Project </h5>
+    <h5 class="card-title" style="padding-top: 20px;" >My webstore </h5>
     <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
   </div>
 
   <div class="card-body">
-    <a href="https://brogans-javascript-project.netlify.app/" class="card-link"><button>Got to site</button></a>
+    <a href="https://dev-prodbrogy-store.pantheonsite.io/" class="card-link"><button>Got to site</button></a>
    
-    <a href="https://github.com/Brogy-alt/Javascript_Final_Project" class="card-link"> <button>Github</button></a>
+
     
     <!-- <a href="#" class="card-link">Card link</a>
     <a href="#" class="card-link">Another link</a> -->
