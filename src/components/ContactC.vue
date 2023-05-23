@@ -102,7 +102,7 @@
               ></textarea>
             </div>
             <div class="button" style="padding-top: 1rem;">
-              <input type="submit" value="submit" />
+              <input type="submit" class="bg-dark" value="submit" />
             </div>
             <br />
           </form>
