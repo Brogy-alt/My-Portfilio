@@ -80,9 +80,9 @@
   </div>
 </div>
 <div class="CV">
-  <!-- <a href="https://cssisntmagic.substack.com" target="_blank" >Download My CV</a> -->
+  <a href="https://drive.google.com/file/d/1jsEeNGf8tDE2OGg8KTefkgr7rcmRp66S/view?usp=sharing" class="linktr__goal r-link" target="_blank" >Download My CV</a>
 
-  <button id="download-btn" class="linktr__goal r-link" @click="downloadCV">Download My CV</button>
+  <!-- <button id="download-btn"  @click="DownloadCV ">Download My CV</button> -->
 
 </div>
 
@@ -104,7 +104,7 @@
     //   MenuC
     },
     methods: {
-    downloadCV() {
+    DownloadCV() {
       const link = document.createElement('a');
       link.href = 'https://drive.google.com/file/d/1ZSx5pq4RdCV0U6Y_g6PTe57TmXQjEE7i/view?usp=sharing'; // Replace 'path_to_your_cv_file.pdf' with the actual path to your CV file
       link.download = 'BroganGys-CV.pdf'; // Replace 'your_cv_file_name.pdf' with the desired name for the downloaded file
@@ -160,12 +160,6 @@ height: 4px;
 background-color: #222021;
 border-radius: 2px;
 }
-
-/*
-!!!!
-This pen is being refactored
-!!!!
-*/
 
 /*
 =====
