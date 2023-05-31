@@ -44,7 +44,7 @@
         <div class="row">
             <div class="col landing-text" style="padding-top: 12rem; ">
                 <h6>Welcome to my personal portfolio</h6>
-                <h1 class="text-hi">Hi, I'm <span>Brogan Gys</span></h1>
+                <h1 class="text-hi">Hi, I'm <span class="name">Brogan Gys</span></h1>
                 <h3>A Full Stack Software Developer</h3>
             </div>
         </div>
@@ -112,7 +112,7 @@ main {
   text-align: center;
 }
 
-span{
+.name{
   font-family: 'Fjalla One', sans-serif;
   position: relative;
   text-align: center;
