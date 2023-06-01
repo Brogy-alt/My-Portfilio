@@ -182,7 +182,7 @@
 
 
   <div class="card-body">
-    <a href="https://virtuverse-capstone-proj-12470.web.app/" class="card-link"><button>Got to site</button></a>
+    <a href="https://virtuverse-capstone-proj-12470.web.app/" target="_blank" class="card-link"><button>Got to site</button></a>
    
    <!-- <a href="https://github.com/Brogy-alt/Virtuverse_Capstone-project/tree/frontend" class="card-link"> <button>Github</button></a> -->
 
@@ -200,7 +200,7 @@
   </div>
 
   <div class="card-body">
-    <a href="https://dev-thekitcollective.pantheonsite.io/" class="card-link"><button>Got to site</button></a>
+    <a href="https://dev-thekitcollective.pantheonsite.io/" target="_blank" class="card-link"><button>Got to site</button></a>
     <!-- <a href="#" class="card-link">Card link</a>
     <a href="#" class="card-link">Another link</a> -->
   </div>
@@ -214,7 +214,7 @@
   </div>
 
   <div class="card-body">
-    <a href="https://dev-prodbrogy-store.pantheonsite.io/" class="card-link"><button>Got to site</button></a>
+    <a href="https://dev-prodbrogy-store.pantheonsite.io/" target="_blank" class="card-link"><button>Got to site</button></a>
    
 
     
