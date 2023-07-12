@@ -27,7 +27,7 @@
 
                 <div class=" m-0 pb-2 text-light" id="copyright">
 
-                    <p>Copyright © {{ CurrentYear }} - All rights reserved || Designed By: Brogan Gys</p>
+                    <p>Copyright © {{ CurrentYear }} - All rights reserved</p>
                 </div>
             </div>
         </footer>

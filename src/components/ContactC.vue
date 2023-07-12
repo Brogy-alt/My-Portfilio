@@ -34,7 +34,7 @@
             <br />
   
             <div class="form-outline">
-              <label class="text-dark" for="#firstname" style="font-size: 20px"
+              <label class="text-dark" for="#firstname" style="font-size: 20px; padding-top: 1rem; display: flex;"
                 >Name</label
               >
               <input
@@ -47,7 +47,7 @@
               />
             </div>
             <div>
-              <label class="text-dark" for="#number" style="font-size: 20px"
+              <label class="text-dark" for="#number" style="font-size: 20px; padding-top: 1rem; display: flex;"
                 >Number</label
               >
               <input
@@ -55,13 +55,13 @@
                 class="form-control"
                 name="surname"
                 type="number"
-                placeholder="Enter your Number"
+                placeholder="Enter your number"
                 required
               />
             </div>
   
             <div>
-              <label class="text-dark" for="#Email" style="font-size: 20px"
+              <label class="text-dark" for="#Email" style="font-size: 20px; padding-top: 1rem; display: flex;"
                 >Email</label
               >
               <input
@@ -69,13 +69,13 @@
                 class="form-control"
                 name="surname"
                 type="text"
-                placeholder="Enter your Email"
+                placeholder="Enter your email"
                 required
               />
             </div>
   
             <div>
-              <label class="text-dark" for="#surname" style="font-size: 20px"
+              <label class="text-dark" for="#surname" style="font-size: 20px; padding-top: 1rem; display: flex;"
                 >Surname</label
               >
               <input
@@ -89,7 +89,7 @@
             </div>
   
             <div>
-              <label class="text-dark" for="#message" style="font-size: 20px"
+              <label class="text-dark" for="#message" style="font-size: 20px; padding-top: 1rem; display: flex;"
                 >Message</label
               >
               <textarea
