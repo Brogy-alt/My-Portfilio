@@ -286,7 +286,7 @@
   
               <div class="card-body">
                 <a
-                  href="https://splitthesquad.netlify.app/"
+                  href="https://split-the-squad.web.app/"
                   target="_blank"
                   class="card-link"
                   ><button>Got to site</button></a
