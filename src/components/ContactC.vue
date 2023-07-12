@@ -9,7 +9,7 @@
                 <div class="contact-text col">
                   <h1
                     id="heading-contact"
-                    style="padding-top: 18rem; font-size: 50px"
+                    style="padding-top: 20rem; font-size: 50px"
                     class="lead display-6">
                     CONTACT
                   </h1>

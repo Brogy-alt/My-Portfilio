@@ -9,7 +9,7 @@
               <div class="home-text col">
                 <h1
                   id="heading-skillspage"
-                  style="padding-top: 18rem; font-size: 50px"
+                  style="padding-top: 20rem; font-size: 50px"
                   class="lead display-6"
                 >
                   SKILLS AND PROJECTS
@@ -166,7 +166,7 @@
           <div class="home-text col">
             <h1
               id="heading-projectpage"
-              style="padding-top: 18rem; font-size: 50px"
+              style="padding-top: 20rem; font-size: 50px"
               class="lead display-6"
             >
               PROJECTS

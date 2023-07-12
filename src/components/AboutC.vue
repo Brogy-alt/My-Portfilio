@@ -1,6 +1,6 @@
 <template>
-  <main>
-    <!-- <MenuC /> -->
+  <!-- <main>
+   
     <section id="about">
       <div class="container-fluid img-fluid">
         <div class="row d-flex flex-column flex-md-row">
@@ -8,7 +8,7 @@
             <div class="about-text col">
               <h1
                 id="heading-aboutpage"
-                style="padding-top: 18rem; font-size: 50px"
+                style="padding-top: 20rem; font-size: 50px"
                 class="lead display-6"
               >
                 ABOUT & TESTIMONIALS
@@ -18,7 +18,7 @@
         </div>
       </div>
     </section>
-  </main>
+  </main> -->
 
   <section id="about">
     <div class="skills-section">
@@ -141,7 +141,7 @@
             <div class="testimonial-text col">
               <h1
                 id="heading-testimonial"
-                style="padding-top: 18rem; font-size: 50px"
+                style="padding-top: 20rem; font-size: 50px"
                 class="lead display-6"
               >
                 TESTIMONIALS
