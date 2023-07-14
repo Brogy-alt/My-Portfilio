@@ -1,7 +1,7 @@
 <template>
     <div class="skills-page">
       <main>
-        <section id="skills-page">
+        <section id="resume-page">
           <div class="container-fluid ">
             <!-- <MenuC/> -->
             <div class="row d-flex flex-column flex-md-row">

@@ -147,12 +147,12 @@
           <div class="skills-title">
             <div class="skills-img">
               <img
-                src=" https://i.postimg.cc/vB1MFKFW/fl-studio-icon.png"
+                src="https://i.postimg.cc/NjZSddtT/icons8-seo-64.png"
                 alt=""
                 class="skills-icons"
               />
             </div>
-            <h3>FL STUDIO</h3>
+            <h3>SEO</h3>
           </div>
         </div>
       </div>
