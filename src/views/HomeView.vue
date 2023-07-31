@@ -45,7 +45,7 @@
             <div class="col landing-text" style="padding-top: 12rem; ">
                 <h6>Welcome to my personal portfolio</h6>
                 <h1 class="text-hi">Hi, I'm <span class="name">Brogan Gys</span></h1>
-                <h3>A Full Stack Software Developer</h3>
+                <h3>A Full Stack Web Developer</h3>
             </div>
         </div>
     </div>
@@ -117,14 +117,14 @@ main {
   position: relative;
   text-align: center;
   font-size: 102px;
-  color: rgba(255, 255, 255, 0.2);
-  background-image: url("https://i.postimg.cc/sXD1P0jT/armand-khoury-4c-BVro7-SHLs-unsplash.jpg");
+  /* color: rgba(255, 255, 255, 0.2); */
+  /* background-image: url("https://i.postimg.cc/sXD1P0jT/armand-khoury-4c-BVro7-SHLs-unsplash.jpg"); */
   /*   background-position: center; */
   background-size: auto;
   width: 100%;
-  background-repeat: repeat-x;
-  -webkit-background-clip: text;
-  animation: animate 10s linear infinite;
+  /* background-repeat: repeat-x; */
+  /* -webkit-background-clip: text; */
+  /* animation: animate 10s linear infinite; */
 }
 
 @keyframes animate {
