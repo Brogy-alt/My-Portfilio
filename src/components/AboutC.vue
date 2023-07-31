@@ -174,7 +174,7 @@
           />
           <div class="overlay">
             <div class="text">
-              <cite title="Source Title"
+              <cite title="Source Title" style="margin-top: 3rem;"
                 ><b>{{ item.name }}</b></cite
               >
               <br />
