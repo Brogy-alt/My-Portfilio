@@ -286,7 +286,7 @@
   
               <div class="card-body">
                 <a
-                  href="https://split-the-squad.web.app/"
+                  href="https://split-the-squad-5920b.web.app/"
                   target="_blank"
                   class="card-link"
                   ><button>Got to site</button></a
