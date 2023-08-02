@@ -45,7 +45,7 @@
             <div class="col landing-text" style="padding-top: 12rem; ">
                 <h6>Welcome to my personal portfolio</h6>
                 <h1 class="text-hi">Hi, I'm <span class="name">Brogan Gys</span></h1>
-                <h3>A Full Stack Web Developer</h3>
+                <h3>A Front-End Web Developer</h3>
             </div>
         </div>
     </div>

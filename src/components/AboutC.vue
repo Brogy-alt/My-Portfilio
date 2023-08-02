@@ -45,17 +45,18 @@
         </div>
         <div class="col-md text-dark" style="margin: auto; padding-top: 3rem">
           <p>
-            I am a 21 year old web developer who has recently
-            <b>completed</b> my learning phase at Life Choices Academy and
-            <b>successfully</b> completed the course and is now a
-            <b>full stack developer</b>. I am someone who prefers creating long
-            lasting relationships with people I meet , I'm someone who has a
-            good sense of humour and Im someone who also tries to make everyone
-            feel comfortable with me and their surroundings , I see my self as a
-            <b>team player</b> who is willing to help and adjust to meet the
-            required needs also lastly , I have a passion for music and I have
-            been producing music since 2018 and In my spare time I create music
-            and youtube content thats related to my music.
+            Hello, I'm Brogan Gys, a <b>passionate</b> 21-year-old front-end web
+            developer with a <b>love for coding</b>, particularly in the front-end
+            field. I take great pleasure in styling, designing, and enhancing
+            web projects to create captivating user experiences. <b>Building</b>
+            strong, enduring relationships with both team members and clients is
+            of utmost importance to me. I am known for my approachable nature,
+            <b>adaptability</b>, and willingness to support project goals
+            wholeheartedly. My positive attitude and sense of humor foster a
+            friendly and <b>productive</b> working environment. In my spare time, you
+            can find me indulging in my other passions: music production and
+            playing soccer. I believe in maintaining a healthy, balanced life to
+            fuel creativity and success.
           </p>
 
           <div
@@ -401,7 +402,6 @@ p {
   }
 }
 
-
 /* ############################################################################################################################################
   -------------------------------Testimonials------------------------------------------------
   ############################################################################################################################################ */
@@ -490,7 +490,6 @@ p {
     gap: 50px;
     padding-top: 1rem !important;
     font-size: 35px !important;
- 
   }
 }
 
