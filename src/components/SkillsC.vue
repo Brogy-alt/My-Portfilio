@@ -182,44 +182,36 @@
       <h2 class="skills-heading text-dark">PROJECTS</h2>
     </div>
 
-    <!-- <section class="projects" style=" padding-top: 5rem;" >
-
-
-
-</section> -->
-
-    <div class="project-container p-0 " style="padding-top: 6rem">
-      <div class="container-fluid">
-        <div class="row py-5 px-lg-5">
-          <div class="col-12 col-md-4 col-lg-4 p-0 pb-4">
-            <div class="card" style="width: 28rem; height: 22rem">
+    <div class="project-container p-0 py-5">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <!-- Project 1 -->
+          <div class="col">
+            <div class="card">
               <img
                 src="https://i.postimg.cc/HLZrBdLt/The-kit-collective-duo-word-press-project.png"
                 class="card-img-top"
                 alt="wordpress project"
               />
               <div class="card-body">
-                <h5 class="card-title" style="padding-top: 20px">
+                <h5 class="card-title">
                   Wordpress Project (The KitCollective)
                 </h5>
-                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
               </div>
-  
-              <div class="card-body">
-                <a
-                  href="https://dev-thekitcollective.pantheonsite.io/"
-                  target="_blank"
-                  class="card-link"
-                  ><button>Got to site</button></a
-                >
-                <!-- <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a> -->
+              <div class="card-footer d-flex justify-content-center">
+                <a class="fancy" target="_blank" href="https://dev-thekitcollective.pantheonsite.io/">
+                  <span class="top-key"></span>
+                  <span class="text">View</span>
+                  <span class="bottom-key-1"></span>
+                  <span class="bottom-key-2"></span>
+                </a>
               </div>
             </div>
           </div>
-  
-          <div class="col-12 col-md-4 col-lg-4 p-0">
-            <div class="card" style="width: 28rem; height: 22rem">
+
+          <!-- Project 2 -->
+          <div class="col">
+            <div class="card">
               <img
                 src="https://i.postimg.cc/nLMDZrSN/Capstone-project.png"
                 class="card-img-top"
@@ -227,130 +219,113 @@
               />
               <div class="card-body">
                 <h5 class="card-title">Capstone Project (Virtuverse)</h5>
-                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
               </div>
-  
-              <div class="card-body">
-                <a
-                  href="https://virtuverse-capstone-proj-12470.web.app/"
-                  target="_blank"
-                  class="card-link"
-                  ><button>Got to site</button></a
-                >
-  
-                <!-- <a href="https://github.com/Brogy-alt/Virtuverse_Capstone-project/tree/frontend" class="card-link"> <button>Github</button></a> -->
-  
-                <!-- <a href="#" class="card-link">Card link</a>
-  <a href="#" class="card-link">Another link</a> -->
+              <div class="card-footer d-flex justify-content-center">
+                <a class="fancy" target="_blank" href="https://virtuverse-capstone-proj-12470.web.app/">
+                  <span class="top-key"></span>
+                  <span class="text">View</span>
+                  <span class="bottom-key-1"></span>
+                  <span class="bottom-key-2"></span>
+                </a>
               </div>
             </div>
           </div>
 
-          <div class="col-12 col-md-4 col-lg-4 p-0">
-            <div class="card" style="width: 28rem; height: 22rem">
+          <!-- Project 3 -->
+          <div class="col">
+            <div class="card">
               <img
-              src="https://i.postimg.cc/8P6NHzN7/Screenshot-2023-07-12-123409.png"
+                src="https://i.postimg.cc/8P6NHzN7/Screenshot-2023-07-12-123409.png"
                 class="card-img-top"
-                alt="personal site "
+                alt="personal site"
               />
               <div class="card-body">
-                <h5 class="card-title" style="padding-top: 20px">My webstore</h5>
-                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                <h5 class="card-title">My webstore</h5>
               </div>
-  
-              <div class="card-body">
-                <a
-                  href="https://dev-prodbrogy-store.pantheonsite.io/"
-                  target="_blank"
-                  class="card-link"
-                  ><button>Got to site</button></a
-                >
-  
-              
-  
+              <div class="card-footer d-flex justify-content-center">
+                <a class="fancy" target="_blank" href="https://dev-prodbrogy-store.pantheonsite.io/">
+                  <span class="top-key"></span>
+                  <span class="text">View</span>
+                  <span class="bottom-key-1"></span>
+                  <span class="bottom-key-2"></span>
+                </a>
               </div>
             </div>
           </div>
 
-          <div class="col-12 col-md-4 col-lg-4 p-0">
-            <div class="card" style="width: 28rem; height: 22rem">
+          <!-- Project 4 -->
+          <div class="col">
+            <div class="card">
               <img
-              src="https://i.postimg.cc/zDhF8chH/Screenshot-2023-07-12-142056.png"
+                src="https://i.postimg.cc/zDhF8chH/Screenshot-2023-07-12-142056.png"
                 class="card-img-top"
-                alt="personal site "
+                alt="personal site"
               />
               <div class="card-body">
-                <h5 class="card-title" style="padding-top: 20px">Team randomizer</h5>
-                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                <h5 class="card-title">Team randomizer</h5>
               </div>
-  
-              <div class="card-body">
-                <a
-                  href="https://split-the-squad-5920b.web.app/"
-                  target="_blank"
-                  class="card-link"
-                  ><button>Got to site</button></a
-                >
-  
-              
-  
+              <div class="card-footer d-flex justify-content-center">
+                <a class="fancy" target="_blank" href="https://split-the-squad-5920b.web.app/">
+                  <span class="top-key"></span>
+                  <span class="text">View</span>
+                  <span class="bottom-key-1"></span>
+                  <span class="bottom-key-2"></span>
+                </a>
               </div>
             </div>
           </div>
 
-         
-  
-          <div class="col-12 col-md-4 col-lg-4 p-0">
-            <div class="card" style="width: 28rem; height: 22rem">
+          <!-- Project 5 -->
+          <div class="col">
+            <div class="card">
               <img
                 src="https://i.postimg.cc/QtgbXsJ0/cally.png"
                 class="card-img-top"
-                alt="calculator "
+                alt="calculator"
               />
               <div class="card-body">
-                <h5 class="card-title" style="padding-top: 20px">My calculator</h5>
-                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                <h5 class="card-title">My calculator</h5>
               </div>
-  
-              <div class="card-body">
-                <a
+              
+                <div class="card-footer d-flex justify-content-center">
+                <a class="fancy" target="_blank" href="https://brogan-calculator.netlify.app/">
+                  <span class="top-key"></span>
+                  <span class="text">View</span>
+                  <span class="bottom-key-1"></span>
+                  <span class="bottom-key-2"></span>
+                </a>
+              </div>
+                <!-- <a
                   href="https://brogan-calculator.netlify.app/"
                   target="_blank"
-                  class="card-link"
-                  ><button>Got to site</button></a
-                >
-  
-                <!-- <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a> -->
-              </div>
+                  class="btn btn-primary"
+                  >Go to site</a
+                > -->
+              
             </div>
           </div>
-          <div class="col-12 col-md-4 col-lg-4 p-0">
-            <div class="card" style="width: 28rem; height: 22rem">
+
+          <!-- Project 6 -->
+          <div class="col">
+            <div class="card">
               <img
-              src="https://i.postimg.cc/5N8MXRnF/Screenshot-2023-07-12-150223.png"
+                src="https://i.postimg.cc/5N8MXRnF/Screenshot-2023-07-12-150223.png"
                 class="card-img-top"
-                alt="personal site "
+                alt="personal site"
               />
               <div class="card-body">
-                <h5 class="card-title" style="padding-top: 20px">My first portfolio</h5>
-                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                <h5 class="card-title">My first portfolio</h5>
               </div>
-  
-              <div class="card-body">
-                <a
-                  href="https://brogan-portfolio.netlify.app/"
-                  target="_blank"
-                  class="card-link"
-                  ><button>Got to site</button></a
-                >
-  
-              
-  
+              <div class="card-footer d-flex justify-content-center">
+                <a class="fancy" target="_blank" href="https://brogan-portfolio.netlify.app/">
+                  <span class="top-key"></span>
+                  <span class="text">View</span>
+                  <span class="bottom-key-1"></span>
+                  <span class="bottom-key-2"></span>
+                </a>
               </div>
             </div>
           </div>
-  
         </div>
       </div>
     </div>
@@ -529,7 +504,7 @@ h5 {
   }
 }
 
-.card-body{
+.card-body {
   padding: 0 !important;
 }
 
@@ -590,5 +565,120 @@ button:active {
 
 #heading-projectpage {
   font-family: "Fjalla One", sans-serif;
+}
+
+/* Custom CSS for equal-sized cards */
+.project-container .card {
+  min-height: 100%;
+}
+
+/* Optionally, you can add custom CSS for equalizing card titles if needed */
+.card-title {
+  min-height: 2.8rem;
+}
+
+.fancy {
+  background-color: transparent;
+  border: 2px solid #000;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 1.25em 2em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  transition: all 0.3s ease-in-out;
+  user-select: none;
+  font-size: 10px;
+}
+
+.fancy::before {
+  content: " ";
+  width: 1.5625rem;
+  height: 2px;
+  background: black;
+  top: 50%;
+  left: 1.5em;
+  position: absolute;
+  transform: translateY(-50%);
+  transform-origin: center;
+  transition: background 0.3s linear, width 0.3s linear;
+}
+
+.fancy .text {
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  padding-left: 2em;
+  display: block;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+.fancy .top-key {
+  height: 2px;
+  width: 1.5625rem;
+  top: -2px;
+  left: 0.625rem;
+  position: absolute;
+  background: #e8e8e8;
+  transition: width 0.5s ease-out, left 0.3s ease-out;
+}
+
+.fancy .bottom-key-1 {
+  height: 2px;
+  width: 1.5625rem;
+  right: 1.875rem;
+  bottom: -2px;
+  position: absolute;
+  background: #e8e8e8;
+  transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.fancy .bottom-key-2 {
+  height: 2px;
+  width: 0.625rem;
+  right: 0.625rem;
+  bottom: -2px;
+  position: absolute;
+  background: #e8e8e8;
+  transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.fancy:hover {
+  color: white;
+  background: black;
+}
+
+.fancy:hover::before {
+  width: 0.9375rem;
+  background: white;
+}
+
+.fancy:hover .text {
+  color: white;
+  padding-left: 1.5em;
+}
+
+.fancy:hover .top-key {
+  left: -2px;
+  width: 0px;
+}
+
+.fancy:hover .bottom-key-1,
+.fancy:hover .bottom-key-2 {
+  right: 0;
+  width: 0;
 }
 </style>

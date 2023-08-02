@@ -1,24 +1,4 @@
 <template>
-  <!-- <main>
-   
-    <section id="about">
-      <div class="container-fluid img-fluid">
-        <div class="row d-flex flex-column flex-md-row">
-          <div loading="lazy" class="img1">
-            <div class="about-text col">
-              <h1
-                id="heading-aboutpage"
-                style="padding-top: 20rem; font-size: 50px"
-                class="lead display-6"
-              >
-                ABOUT & TESTIMONIALS
-              </h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main> -->
 
   <section id="about">
     <div class="skills-section">
