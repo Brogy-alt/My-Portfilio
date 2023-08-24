@@ -36,7 +36,7 @@
             </time>
           </header>
           <div class="card__content">
-            <p>I started my journey at Life Choices Academy and completed the academy phase in January 2023</p>
+            <p>I started my journey at Life Choices Academy and completed the academy phase in April 2023</p>
           </div>
         </div>
       </div>
