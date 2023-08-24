@@ -11,9 +11,9 @@
                     </ul>
                 </div>
 
-                <div style="padding-bottom: 1rem; padding-top: 1rem;">
+                <!-- <div style="padding-bottom: 1rem; padding-top: 1rem;">
                    <h5 >QUICK LINKS</h5> 
-                </div>
+                </div> -->
                 <div class="row" style="font-size: smaller;">
                     
                     <ul>
@@ -66,7 +66,9 @@ p,h2,h3,h3,h4,h5{
   transition: all ease 500ms;
 }
 
-
+li , p{
+    font-family: "Rubik", sans-serif;
+}
 
 .footer {
     background: #000000;

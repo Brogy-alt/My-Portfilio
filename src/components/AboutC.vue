@@ -7,113 +7,94 @@
       </div>
     </div>
 
-    <div class="container" style="min-height: 80vh; max-width: 100%">
-      <div class="row">
-        <div class="col-md text-dark pt-2 my-img">
-          <img
-            src="https://i.postimg.cc/d09dynK8/My-project.png"
-            alt=""
-            style="
-              border-radius: 50%;
-              padding-left: 2rem;
-              width: 27rem;
-              border: 1px solid;
-              padding: 10px;
-              box-shadow: 0 5px 10px rgb(0, 0, 0);
-            "
-          />
-        </div>
-        <div class="col-md text-dark" style="margin: auto; padding-top: 3rem">
-          <p>
-            Hello, I'm Brogan Gys, a <b>passionate</b> 21-year-old front-end web
-            developer with a <b>love for coding</b>, particularly in the front-end
-            field. I take great pleasure in styling, designing, and enhancing
-            web projects to create captivating user experiences. <b>Building</b>
-            strong, enduring relationships with both team members and clients is
-            of utmost importance to me. I am known for my approachable nature,
-            <b>adaptability</b>, and willingness to support project goals
-            wholeheartedly. My positive attitude and sense of humor foster a
-            friendly and <b>productive</b> working environment. In my spare time, you
-            can find me indulging in my other passions: music production and
-            playing soccer. I believe in maintaining a healthy, balanced life to
-            fuel creativity and success.
-          </p>
+   
 
-          <div
-            class="container w-100 text-center"
-            style="box-shadow: 0 5px 10px rgb(0, 0, 0)"
-          >
-            <div class="row">
-              <!-- Force next columns to break to new line -->
-              <div class="w-100"></div>
+<div class="container" style="min-height: 80vh; max-width: 100%">
+  <div class="row">
+    <div class="col-md-6 text-dark pt-2 my-img">
+      <img
+        src="https://i.postimg.cc/d09dynK8/My-project.png"
+        alt=""
+        style="
+          border-radius: 50%;
+          padding-left: 2rem;
+          width: 100%;
+          max-width: 30rem;
+          border: 1px solid;
+          padding: 10px;
+          margin-top: 12px;
+          box-shadow: 0 5px 10px rgb(0, 0, 0);
+        "
+      />
+    </div>
+    <div class="col-md-5 text-dark" style="margin: auto; padding-top: 3rem">
+      <p>
+        Hello, I'm Brogan Gys, a <b>passionate</b> 21-year-old front-end web
+        developer with a <b>love for coding</b>, particularly in the front-end
+        field. I take great pleasure in styling, designing, and enhancing
+        web projects to create captivating user experiences. <b>Building</b>
+        strong, enduring relationships with both team members and clients is
+        of utmost importance to me. I am known for my approachable nature,
+        <b>adaptability</b>, and willingness to support project goals
+        wholeheartedly. My positive attitude and sense of humor foster a
+        friendly and <b>productive</b> working environment. In my spare time, you
+        can find me indulging in my other passions: music production and
+        playing soccer. I believe in maintaining a healthy, balanced life to
+        fuel creativity and success.
+      </p>
 
-              <div class="col-6 col-sm-6 test">
-                <i class="fa-solid fa-phone" style="font-size: 15px"></i>
-                <span class="number" style="font-size: 16px"
-                  >No.069 516 6923</span
-                >
-              </div>
-              <div class="col-6 col-sm-6">
-                <i class="fa-solid fa-at" style="font-size: 15px"></i>
-                <span style="font-size: 16px">brogangys2@gmail.com</span>
-              </div>
-            </div>
+      <div
+        class="container w-100 text-center"
+        style="box-shadow: 0 5px 10px rgb(0, 0, 0); border-radius: 20px 20px 20px 20px;"
+      >
+        <div class="row">
+          <div class="w-100"></div>
+
+          <div class="col-6 col-sm-6 test">
+            <i class="fa fa-phone" style="font-size: 15px"></i>
+            <span class="number" style="font-size: 16px">No.069 516 6923</span>
           </div>
-        </div>
-
-        <div class="col-md text-dark pt-2">
-          <div class="row">
-            <ul
-              class="icons-about"
-              style="font-size: 50px; list-style-type: none; padding-top: 5rem"
-            >
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/brogan-gys/"
-                  target="_blank"
-                  ><i
-                    id="linkedin"
-                    class="fa fa-linkedin text-dark"
-                    style="padding-bottom: 2rem"
-                  ></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/prodbrogy/" target="_blank"
-                  ><i
-                    id="ig"
-                    class="fa fa-instagram text-dark"
-                    style="padding-bottom: 2rem"
-                  ></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.youtube.com/channel/UC13tr7mMjdQfZRaoI0rbTgQ"
-                  target="_blank"
-                  ><i
-                    id="yt"
-                    class="fa fa-youtube text-dark"
-                    style="padding-bottom: 2rem"
-                  ></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://github.com/Brogy-alt" target="_blank"
-                  ><i
-                    id="github"
-                    class="fa-brands fa-github text-dark"
-                    style="padding-bottom: 2rem"
-                  ></i
-                ></a>
-              </li>
-            </ul>
+          <div class="col-6 col-sm-6 test">
+            <i class="fa fa-envelope" style="color: #222021; font-size: 17px"></i>
+            <span style="font-size: 16px">prodbrogy@gmail.com</span>
           </div>
         </div>
       </div>
+      
+      <!-- Social media icons (display flex) -->
+      <ul class="icons-about" style="font-size: 50px; list-style-type: none; display: flex; justify-content: center; gap: 4rem; padding-top: 1rem;">
+        <li>
+          <a href="https://www.linkedin.com/in/brogan-gys/" target="_blank">
+            <i id="linkedin" class="fa fa-linkedin text-dark"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/prodbrogy/" target="_blank">
+            <i id="ig" class="fa fa-instagram text-dark"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UC13tr7mMjdQfZRaoI0rbTgQ" target="_blank">
+            <i id="yt" class="fa fa-youtube text-dark"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Brogy-alt" target="_blank">
+            <i id="github" class="fa-brands fa-github text-dark"></i>
+          </a>
+        </li>
+      </ul>
     </div>
-  </section>
 
+    <!-- Optional: Add an empty column for spacing -->
+    <div class="col-md-1"></div>
+  </div>
+</div>
+  
+
+
+  </section>
+<!-- 
   <section class="testimonial-main">
     <section id="testimonial">
       <div class="container-fluid img-fluid">
@@ -132,7 +113,7 @@
         </div>
       </div>
     </section>
-  </section>
+  </section> -->
 
   <section id="testimonials">
     <div class="skills-section">
@@ -142,37 +123,33 @@
     </div>
 
     <div class="testimonials text-center">
-      <div class="row" style="gap: 2rem">
-        <div v-for="item in info" :key="item" class="card text-center">
-          <i
-            class="fa fa-quote-left fa-3x card-img-top rounded-circle"
-            aria-hidden="true"
-          ></i>
-          <img
-            :src="item.image"
-            style="height: 100%; width: 100%; border-radius: 50%; padding: 5px"
-            class="image-fluid"
-          />
-          <div class="overlay">
-            <div class="text">
-              <cite title="Source Title "
-                ><b>{{ item.name }}</b></cite
-              >
-              <br />
-              <h4 style="">{{ item.reference }}</h4>
-              <div class="card-body blockquote">
-                <p
-                  class="card-text"
-                  style="font-family: 'Fjalla One', sans-serif; padding: 2rem"
-                >
-                  {{ item.message }}
-                </p>
-              </div>
-            </div>
+  <div class="row" style="gap: 2rem">
+    <div v-for="item in info" :key="item" class="card text-center">
+      <i class="fa fa-quote-left fa-3x card-img-top rounded-circle" aria-hidden="true"></i>
+      <img :src="item.image" style="height: 100%; width: 100%; border-radius: 50%; padding: 5px" class="image-fluid" />
+      <div class="overlay">
+        <div class="text">
+          <cite title="Source Title">
+            <h5>
+              <div style="padding-top: 30px;">{{ item.name }}</div>
+            </h5>
+          </cite>
+
+          
+
+          <br />
+          <h4 style="">{{ item.reference }}</h4>
+          <div class="card-body blockquote">
+            <p class="card-text" style=" padding: 10px">
+              {{ item.message }}
+            </p>
           </div>
         </div>
       </div>
     </div>
+  </div>
+</div>
+
     <div class="background-fade"></div>
   </section>
 </template>
@@ -316,6 +293,10 @@ p {
   font-family: "Fjalla One", sans-serif;
 }
 
+.test{
+  border-radius: 20%;
+}
+
 .about-heading {
   margin: auto;
   font-family: "Fjalla One", sans-serif;
@@ -381,6 +362,62 @@ p {
     margin-left: 2rem;
   }
 }
+
+/* CSS for large screens */
+@media (min-width: 700px) {
+    /* Adjust the image size */
+    .my-img img {
+      max-width: 30rem;
+    }
+
+    /* Center the contact details */
+    .contact-details {
+      text-align: center;
+    }
+
+    /* Remove padding-top on contact details */
+    .contact-details p {
+      padding-top: 0;
+    }
+
+    /* Adjust padding for social icons */
+    .icons-about {
+      padding-top: 1rem;
+      gap: 4rem;
+    }
+  }
+
+  /* CSS for medium screens */
+  @media (max-width: 699px) {
+    /* Reduce the image size */
+    .my-img img {
+      max-width: 100%;
+    }
+
+    /* Center the contact details */
+    .contact-details {
+      text-align: center;
+    }
+
+    /* Reduce padding for social icons */
+    .icons-about {
+      padding-top: 0.5rem;
+      gap: 2rem;
+    }
+  }
+
+  /* CSS for small screens */
+  @media (max-width: 380px) {
+    /* Reduce the size of social icons */
+    .icons-about {
+      font-size: 18px;
+    }
+
+    /* Center the social icons */
+    .icons-about {
+      justify-content: center;
+    }
+  }
 
 /* ############################################################################################################################################
   -------------------------------Testimonials------------------------------------------------

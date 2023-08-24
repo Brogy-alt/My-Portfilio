@@ -1,125 +1,142 @@
 <template>
-    <main>
-      <!-- <MenuC /> -->
-      <section class="contact-main">
-        <section id="contact">
-          <div class="container-fluid img-fluid">
-            <div class="row d-flex flex-column flex-md-row">
-              <div loading="lazy" class="img1">
-                <div class="contact-text col">
-                  <h1
-                    id="heading-contact"
-                    style="padding-top: 20rem; font-size: 50px"
-                    class="lead display-6">
-                    CONTACT
-                  </h1>
-                </div>
-              </div>
-            </div>
+  <div>
+
+    <section class="container">
+      <div class="contact">
+        <div class="skills-section">
+          <div class="skills-header">
+            <h2 class="skills-heading text-dark">CONTACT ME</h2>
           </div>
-        </section>
-      </section>
-    </main>
-  
-    <div>
-      <section class="container">
-        <div class="contact">
-            <div class="skills-section">
-    <div class="skills-header">
-     <h2 class="skills-heading text-dark">CONTACT ME</h2>   
-     </div> 
-     </div>
-          <h2 class="text-dark pt-4 pb-3"></h2>
-          <form @submit.prevent="userRegister">
-            <br />
-  
-            <div class="form-outline">
-              <label class="text-dark" for="#firstname" style="font-size: 20px; padding-top: 1rem; display: flex;"
-                >Name</label
-              >
-              <input
-                id="firstname"
-                class="form-control"
-                name="firstName"
-                type="text"
-                placeholder="Enter your name"
-                required
-              />
-            </div>
-            <div>
-              <label class="text-dark" for="#number" style="font-size: 20px; padding-top: 1rem; display: flex;"
-                >Number</label
-              >
-              <input
-                id="surname"
-                class="form-control"
-                name="surname"
-                type="number"
-                placeholder="Enter your number"
-                required
-              />
-            </div>
-  
-            <div>
-              <label class="text-dark" for="#Email" style="font-size: 20px; padding-top: 1rem; display: flex;"
-                >Email</label
-              >
-              <input
-                id="surname"
-                class="form-control"
-                name="surname"
-                type="text"
-                placeholder="Enter your email"
-                required
-              />
-            </div>
-  
-            <div>
-              <label class="text-dark" for="#surname" style="font-size: 20px; padding-top: 1rem; display: flex;"
-                >Surname</label
-              >
-              <input
-                id="surname"
-                class="form-control"
-                name="surname"
-                type="text"
-                placeholder="Enter your surname"
-                required
-              />
-            </div>
-  
-            <div>
-              <label class="text-dark" for="#message" style="font-size: 20px; padding-top: 1rem; display: flex;"
-                >Message</label
-              >
-              <textarea
-                name="message"
-                class="form-control"
-                cols="45"
-                rows="5"
-                placeholder="Enter your message"
-                required
-              ></textarea>
-            </div>
-            <div class="button" style="padding-top: 1rem;">
-              <input type="submit" class="bg-dark" value="submit" />
-            </div>
-            <br />
-          </form>
         </div>
+        <h2 class="text-dark pt-4 pb-3"></h2>
+        <form action="https://formspree.io/f/xayzrrjb" method="POST" target="_blank">
+          <br />
+
+          <div class="form-outline">
+            <label class="text-dark" for="firstname" style="font-size: 20px; padding-top: 1rem; display: flex;">Name</label>
+            <input
+              id="firstname"
+              class="form-control"
+              v-model="formData.firstName"
+              type="text"
+              name="firstName"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+
+          <div>
+            <label class="text-dark" for="surname" style="font-size: 20px; padding-top: 1rem; display: flex;">Surname</label>
+            <input
+              id="surname"
+              class="form-control"
+              v-model="formData.surname"
+              type="text"
+              name="surname"
+              placeholder="Enter your surname"
+              required
+            />
+          </div>
+
+          <div>
+            <label class="text-dark" for="email" style="font-size: 20px; padding-top: 1rem; display: flex;">Email</label>
+            <input
+              id="email"
+              class="form-control"
+              v-model="formData.email"
+              type="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+
+
+          <div>
+            <label class="text-dark" for="number" style="font-size: 20px; padding-top: 1rem; display: flex;">Number</label>
+            <input
+              id="number"
+              class="form-control"
+              v-model="formData.number"
+              type="number"
+              name="phoneNumber"
+              placeholder="Enter your number"
+              required
+            />
+          </div>
+      
+
+          <div>
+            <label class="text-dark" for="message" style="font-size: 20px; padding-top: 1rem; display: flex;">Message</label>
+            <textarea
+              name="message"
+              v-model="formData.message"
+              class="form-control"
+              cols="45"
+              rows="5"
+              placeholder="Enter your message"
+              required
+            ></textarea>
+          </div>
+
+          <div class="button" style="padding-top: 1rem;">
+
+            <input  class="linktr__goal r-link" target="_blank" type="submit" style="  background-color: #1D1D1D;
+    border-radius: 20px;" value="Submit" />
+          </div>
+
+          <br />
+        </form>
+      </div>
+    </section>
+
   
-  
-      </section>
-    </div>
-  </template>
-  <script>
-//   import MenuC from "@/components/MenuC.vue";
-  export default {
-    components: { 
-        // MenuC 
-    },
-  };
-  </script>
+
+
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      formData: {
+        firstName: '',
+        phoneNumber: '',
+        email: '',
+        surname: '',
+        message: ''
+      }
+    };
+  },
+  methods: {
+    userRegister() {
+      fetch('https://formspree.io/your-email@example.com', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(this.formData)
+      })
+        .then(response => {
+          if (response.ok) {
+            // Form submission successful
+            console.log('Form submitted successfully!');
+            // You can reset the form or show a success message here
+          } else {
+            // Form submission failed
+            console.error('Form submission failed.');
+          }
+        })
+        .catch(error => {
+          console.error('Error:', error);
+        });
+    }
+  }
+};
+</script>
+
+
   <style scoped>
   @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
   
@@ -144,6 +161,18 @@
     font-size: 19px;
     font-family: "Rubik", sans-serif;
   }
+
+  ::placeholder label{
+    font-family: "Rubik", sans-serif;
+  }
+
+  input {
+    font-family: "Rubik", sans-serif;
+  }
+
+  label {
+    font-family: "Rubik", sans-serif;
+  }
   
   .text-dark {
     font-family: "Fjalla One", sans-serif;
@@ -159,7 +188,7 @@
     background-color: #808080;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
   }
   input[type="text"] {
     width: 100%;
@@ -193,6 +222,7 @@
   } */
   .button {
     padding-bottom: 2rem;
+
   }
 
   .skills-section{
@@ -220,6 +250,36 @@ background-color: #222021;
 border-radius: 2px;
 }
 
+.bg-dark{
+  border-radius: 50%;
   
+}
+.linktr__goal{
+  background-color: rgb(0, 0, 0);
+  color: rgb(8, 49, 112);
+  box-shadow: rgb(8 49 112 / 24%) 0px 2px 8px 0px;
+  border-radius: 2rem;
+  padding: .75rem 1.5rem;
+  margin: auto;
+}
+
+.r-link{
+    --uirLinkDisplay: var(--rLinkDisplay, inline-flex);
+    --uirLinkTextColor: var(--rLinkTextColor);
+    --uirLinkTextDecoration: var(--rLinkTextDecoration, none);
+
+    display: var(--uirLinkDisplay) !important;
+    color: var(--uirLinkTextColor) !important;
+    text-decoration: var(--uirLinkTextDecoration) !important;
+}
+
+.button {
+    padding-top: 1rem;
+  }
+
+  form input:focus {
+    outline-color: red;
+  }
+
   </style>
   

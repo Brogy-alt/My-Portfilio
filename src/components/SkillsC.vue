@@ -1,9 +1,9 @@
 <template>
   <div class="skills-page">
-    <main>
+    <!-- <main>
       <section id="skills-page">
         <div class="container-fluid">
-          <!-- <MenuC/> -->
+        
           <div class="row d-flex flex-column flex-md-row">
             <div loading="lazy" class="img1 img-fluid">
               <div class="home-text col">
@@ -19,7 +19,7 @@
           </div>
         </div>
       </section>
-    </main>
+    </main> -->
 
     <div class="skills-section">
       <div class="skills-header">
@@ -159,7 +159,7 @@
     </div>
   </div>
 
-  <section id="project-page">
+  <!-- <section id="project-page">
     <div class="container-fluid">
       <div class="row d-flex flex-column flex-md-row">
         <div loading="lazy" class="img1 img-fluid">
@@ -175,154 +175,40 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <div class="skills-section">
-    <div class="skills-header">
-      <h2 class="skills-heading text-dark">PROJECTS</h2>
+  <!-- Projects Section -->
+  <div class="projects-section">
+    <div class="projects-header">
+      <h2 class="projects-heading text-dark">PROJECTS</h2>
     </div>
 
     <div class="project-container p-0 py-5">
       <div class="container">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-          <!-- Project 1 -->
-          <div class="col">
+          <div v-for="project in projects" :key="project.id" class="col">
             <div class="card">
               <img
-                src="https://i.postimg.cc/HLZrBdLt/The-kit-collective-duo-word-press-project.png"
+                :src="project.image"
                 class="card-img-top"
-                alt="wordpress project"
+                :alt="project.title + ' project'"
+                style="height: 200px; object-fit: cover"
               />
               <div class="card-body">
-                <h5 class="card-title">
-                  Wordpress Project (The KitCollective)
-                </h5>
+                <h5 class="card-title">{{ project.title }}</h5>
               </div>
               <div class="card-footer d-flex justify-content-center">
-                <a class="fancy" target="_blank" href="https://dev-thekitcollective.pantheonsite.io/">
-                  <span class="top-key"></span>
-                  <span class="text">View</span>
-                  <span class="bottom-key-1"></span>
-                  <span class="bottom-key-2"></span>
-                </a>
-              </div>
-            </div>
-          </div>
+                <div class="text-light">
+                  <a
+                 target="_blank"  :href="project.link"
+                    class="linktr__goal r-link" style="font-size: 17px;"
+                    
+                    >View</a
+                  >
 
-          <!-- Project 2 -->
-          <div class="col">
-            <div class="card">
-              <img
-                src="https://i.postimg.cc/nLMDZrSN/Capstone-project.png"
-                class="card-img-top"
-                alt="capstone project"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Capstone Project (Virtuverse)</h5>
-              </div>
-              <div class="card-footer d-flex justify-content-center">
-                <a class="fancy" target="_blank" href="https://virtuverse-capstone-proj-12470.web.app/">
-                  <span class="top-key"></span>
-                  <span class="text">View</span>
-                  <span class="bottom-key-1"></span>
-                  <span class="bottom-key-2"></span>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 3 -->
-          <div class="col">
-            <div class="card">
-              <img
-                src="https://i.postimg.cc/8P6NHzN7/Screenshot-2023-07-12-123409.png"
-                class="card-img-top"
-                alt="personal site"
-              />
-              <div class="card-body">
-                <h5 class="card-title">My webstore</h5>
-              </div>
-              <div class="card-footer d-flex justify-content-center">
-                <a class="fancy" target="_blank" href="https://dev-prodbrogy-store.pantheonsite.io/">
-                  <span class="top-key"></span>
-                  <span class="text">View</span>
-                  <span class="bottom-key-1"></span>
-                  <span class="bottom-key-2"></span>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 4 -->
-          <div class="col">
-            <div class="card">
-              <img
-                src="https://i.postimg.cc/zDhF8chH/Screenshot-2023-07-12-142056.png"
-                class="card-img-top"
-                alt="personal site"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Team randomizer</h5>
-              </div>
-              <div class="card-footer d-flex justify-content-center">
-                <a class="fancy" target="_blank" href="https://split-the-squad-5920b.web.app/">
-                  <span class="top-key"></span>
-                  <span class="text">View</span>
-                  <span class="bottom-key-1"></span>
-                  <span class="bottom-key-2"></span>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 5 -->
-          <div class="col">
-            <div class="card">
-              <img
-                src="https://i.postimg.cc/QtgbXsJ0/cally.png"
-                class="card-img-top"
-                alt="calculator"
-              />
-              <div class="card-body">
-                <h5 class="card-title">My calculator</h5>
-              </div>
-              
-                <div class="card-footer d-flex justify-content-center">
-                <a class="fancy" target="_blank" href="https://brogan-calculator.netlify.app/">
-                  <span class="top-key"></span>
-                  <span class="text">View</span>
-                  <span class="bottom-key-1"></span>
-                  <span class="bottom-key-2"></span>
-                </a>
-              </div>
-                <!-- <a
-                  href="https://brogan-calculator.netlify.app/"
-                  target="_blank"
-                  class="btn btn-primary"
-                  >Go to site</a
-                > -->
-              
-            </div>
-          </div>
-
-          <!-- Project 6 -->
-          <div class="col">
-            <div class="card">
-              <img
-                src="https://i.postimg.cc/5N8MXRnF/Screenshot-2023-07-12-150223.png"
-                class="card-img-top"
-                alt="personal site"
-              />
-              <div class="card-body">
-                <h5 class="card-title">My first portfolio</h5>
-              </div>
-              <div class="card-footer d-flex justify-content-center">
-                <a class="fancy" target="_blank" href="https://brogan-portfolio.netlify.app/">
-                  <span class="top-key"></span>
-                  <span class="text">View</span>
-                  <span class="bottom-key-1"></span>
-                  <span class="bottom-key-2"></span>
-                </a>
+                
+                </div>
+                
               </div>
             </div>
           </div>
@@ -333,12 +219,54 @@
 </template>
 
 <script>
-// import MenuC from '@/components/MenuC.vue'
-
 export default {
   name: "HomeView",
-  components: {
-    // MenuC
+  data() {
+    return {
+      projects: [
+        {
+          id: 1,
+          title: "The KitCollective (Wordpress)",
+          image:
+            "https://i.postimg.cc/HLZrBdLt/The-kit-collective-duo-word-press-project.png",
+          link: "https://dev-thekitcollective.pantheonsite.io/",
+        },
+        {
+          id: 2,
+          title: "Virtuverse (Capstone Project)",
+          image: "https://i.postimg.cc/nLMDZrSN/Capstone-project.png",
+          link: "https://virtuverse-capstone-proj-12470.web.app/",
+        },
+        {
+          id: 3,
+          title: "My Webstore (Wordpress)",
+          image:
+            "https://i.postimg.cc/8P6NHzN7/Screenshot-2023-07-12-123409.png",
+          link: "https://dev-prodbrogy-store.pantheonsite.io/",
+        },
+        {
+          id: 4,
+          title: "Team Randomizer",
+          image:
+            "https://i.postimg.cc/zDhF8chH/Screenshot-2023-07-12-142056.png",
+          link: "https://split-the-squad-5920b.web.app/",
+        },
+        {
+          id: 5,
+          title: "Login In & Out System (Php)",
+          image:
+            "https://i.postimg.cc/Z5D7gwhF/Screenshot-2023-08-17-085240.png",
+          link: "https://php-project2810.000webhostapp.com/",
+        },
+        {
+          id: 6,
+          title: "Online Task Management Platform (Javascript)",
+          image:
+            "https://i.postimg.cc/15BD74Zp/Screenshot-2023-08-17-084715.png",
+          link: "https://to-do-notes-application.netlify.app/",
+        },
+      ],
+    };
   },
 };
 </script>
@@ -354,14 +282,16 @@ main {
   background-attachment: fixed;
 }
 
-p,
-h2,
-h3,
-h3,
-h4,
-h5 {
+h1,h2,h3{
   font-family: "Fjalla One", sans-serif;
 }
+
+p , a{
+  font-size: 19px;
+  font-family: "Rubik", sans-serif;
+  
+}
+
 #heading-skillspage {
   font-family: "Fjalla One", sans-serif;
 }
@@ -387,7 +317,7 @@ h5 {
   transform: translateX(-50%);
   width: 100px;
   height: 4px;
-  background-color: #222021;
+  background-color: #1D1D1D;
   border-radius: 2px;
 }
 
@@ -443,7 +373,7 @@ h5 {
   width: 20px;
   height: 4px;
   border-radius: 2px 0 0 2px;
-  background-color: #222021;
+  background-color: #1D1D1D;
   transition: 0.5s;
 }
 
@@ -455,7 +385,7 @@ h5 {
   width: 100px;
   height: 4px;
   border-radius: 0 2px 2px 0;
-  background-color: #222021;
+  background-color: #1D1D1D;
 }
 
 .skills-icons {
@@ -511,7 +441,7 @@ h5 {
 button {
   appearance: none;
   background-color: transparent;
-  border: 0.125em solid #1a1a1a;
+  border: 0.125em solid #1D1D1D;
   border-radius: 0.9375em;
   box-sizing: border-box;
   color: #3b3b3b;
@@ -551,6 +481,17 @@ button:active {
   transform: translateY(0);
 }
 
+/* Convert project images to grayscale by default */
+.card-img-top {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+
+  /* Restore the original color when hovered over */
+  .card:hover .card-img-top {
+    filter: grayscale(0%);
+  }
+
 /* ###############################################SKILLS################################################ */
 
 #project-page {
@@ -561,6 +502,27 @@ button:active {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+
+
+.projects-header {
+  text-align: center;
+  color: #fff;
+  padding: 1rem;
+  position: relative;
+}
+
+.projects-header:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background-color: #1D1D1D;
+  border-radius: 2px;
 }
 
 #heading-projectpage {
@@ -577,108 +539,23 @@ button:active {
   min-height: 2.8rem;
 }
 
-.fancy {
-  background-color: transparent;
-  border: 2px solid #000;
-  border-radius: 0;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  float: right;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  margin: 0;
-  outline: none;
-  overflow: visible;
-  padding: 1.25em 2em;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  text-transform: none;
-  transition: all 0.3s ease-in-out;
-  user-select: none;
-  font-size: 10px;
+.linktr__goal{
+  background-color: #1D1D1D;
+  color: rgb(8, 49, 112);
+  box-shadow: rgb(8 49 112 / 24%) 0px 2px 8px 0px;
+  border-radius: 2rem;
+  padding: .75rem 1.5rem;
+  margin: auto;
 }
 
-.fancy::before {
-  content: " ";
-  width: 1.5625rem;
-  height: 2px;
-  background: black;
-  top: 50%;
-  left: 1.5em;
-  position: absolute;
-  transform: translateY(-50%);
-  transform-origin: center;
-  transition: background 0.3s linear, width 0.3s linear;
+.r-link{
+    --uirLinkDisplay: var(--rLinkDisplay, inline-flex);
+    --uirLinkTextColor: var(--rLinkTextColor);
+    --uirLinkTextDecoration: var(--rLinkTextDecoration, none);
+
+    display: var(--uirLinkDisplay) !important;
+    color: var(--uirLinkTextColor) !important;
+    text-decoration: var(--uirLinkTextDecoration) !important;
 }
 
-.fancy .text {
-  font-size: 1.125em;
-  line-height: 1.33333em;
-  padding-left: 2em;
-  display: block;
-  text-align: left;
-  transition: all 0.3s ease-in-out;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: black;
-}
-
-.fancy .top-key {
-  height: 2px;
-  width: 1.5625rem;
-  top: -2px;
-  left: 0.625rem;
-  position: absolute;
-  background: #e8e8e8;
-  transition: width 0.5s ease-out, left 0.3s ease-out;
-}
-
-.fancy .bottom-key-1 {
-  height: 2px;
-  width: 1.5625rem;
-  right: 1.875rem;
-  bottom: -2px;
-  position: absolute;
-  background: #e8e8e8;
-  transition: width 0.5s ease-out, right 0.3s ease-out;
-}
-
-.fancy .bottom-key-2 {
-  height: 2px;
-  width: 0.625rem;
-  right: 0.625rem;
-  bottom: -2px;
-  position: absolute;
-  background: #e8e8e8;
-  transition: width 0.5s ease-out, right 0.3s ease-out;
-}
-
-.fancy:hover {
-  color: white;
-  background: black;
-}
-
-.fancy:hover::before {
-  width: 0.9375rem;
-  background: white;
-}
-
-.fancy:hover .text {
-  color: white;
-  padding-left: 1.5em;
-}
-
-.fancy:hover .top-key {
-  left: -2px;
-  width: 0px;
-}
-
-.fancy:hover .bottom-key-1,
-.fancy:hover .bottom-key-2 {
-  right: 0;
-  width: 0;
-}
 </style>

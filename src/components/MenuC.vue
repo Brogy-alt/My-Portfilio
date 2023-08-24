@@ -10,7 +10,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="font-family: 'Fjalla One', sans-serif; font-size: 19px;">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="font-size: 19px;">
             <li class="nav-item">
               <a class="nav-link active text-light" aria-current="page" href="/">HOME</a>
             </li>
@@ -53,6 +53,10 @@ export default {
     backdrop-filter: blur(5px);
     
   }  
+
+  li a{
+    font-family: "Rubik", sans-serif !important;
+  }
   
   .navbar-toggler , .navbar-toggler-icon {
     color: #ffffff;

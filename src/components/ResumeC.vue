@@ -1,26 +1,6 @@
 <template>
     <div class="skills-page">
-      <main>
-        <section id="resume-page">
-          <div class="container-fluid ">
-            <!-- <MenuC/> -->
-            <div class="row d-flex flex-column flex-md-row">
-              <div loading="lazy" class="img1 img-fluid">
-                <div class="home-text col">
-                  <h1 
-                    id="heading-skillspage"
-                    style="padding-top: 20rem; font-size: 50px"
-                    class="lead display-6">
-                    RESUME
-                  </h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
       
-
       <div class="skills-section">
     <div class="skills-header">
      <h2 class="skills-heading text-dark">TIMELINE</h2>   
@@ -80,7 +60,7 @@
   </div>
 </div>
 <div class="CV">
-  <a href="https://drive.google.com/file/d/1fom9I8LON1ktXqHlly5y8mHFTiKOG79-/view?usp=drive_link" class="linktr__goal r-link" target="_blank" >Download My CV</a>
+  <a href="https://drive.google.com/file/d/1fom9I8LON1ktXqHlly5y8mHFTiKOG79-/view?usp=drive_link" class="linktr__goal r-link" target="_blank">Download My CV</a>
 
   <!-- <button id="download-btn"  @click="DownloadCV ">Download My CV</button> -->
 
@@ -133,8 +113,8 @@ main {
   font-family: 'Fjalla One', sans-serif;
 }
 
-p,h2,h3,h3,h4,h5{
-  font-family: 'Fjalla One', sans-serif;
+p,h3,h3,h4,h5,a{
+  font-family: "Rubik", sans-serif;
 }
 
 .skills-section{
@@ -157,7 +137,7 @@ left: 50%;
 transform: translateX(-50%);
 width: 100px;
 height: 4px;
-background-color: #222021;
+background-color: #1D1D1D;
 border-radius: 2px;
 }
 
@@ -218,8 +198,8 @@ skin
 
 .time{
   padding: var(--timePadding, .25rem 1.25rem .25rem);
-  background-color: var(--timeBackgroundColor, #f0f0f0);
-
+  background-color: var(--timeBackgroundColor, #d7d2d2);
+  border-radius: 20px 20px 20px 20px;
   font-size: var(--timeFontSize, .75rem);
   font-weight: var(--timeFontWeight, 700);
   text-transform: var(--timeTextTransform, uppercase);
@@ -236,10 +216,12 @@ core styles
 
 .card{
   padding: var(--timelineCardPadding, 1.5rem 1.5rem 1.25rem);
+  
 }
 
 .card__content{
   margin-top: var(--cardContentMarginTop, .5rem);
+  
 }
 
 /*
@@ -251,6 +233,7 @@ skin
   border-left: var(--timelineCardBorderLeftWidth, 3px) solid var(--timelineCardBorderLeftColor, var(--uiTimelineMainColor));
   box-shadow: var(--timelineCardBoxShadow, 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24));
   background-color: var(--timelineCardBackgroundColor, #fff);
+  border-radius: 20px 20px 20px 20px;
 }
 
 /*
@@ -399,7 +382,7 @@ p:last-child{
 }
 
 .linktr__goal{
-  background-color: rgb(0, 0, 0);
+  background-color: #1D1D1D;
   color: rgb(8, 49, 112);
   box-shadow: rgb(8 49 112 / 24%) 0px 2px 8px 0px;
   border-radius: 2rem;
