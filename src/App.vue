@@ -32,7 +32,15 @@
   overflow-x: hidden
 }
 
+/* Hide both vertical and horizontal scroll bars */
+body::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for webkit (Chrome, Safari) */
+}
 
+/* Hide scrollbar for Firefox */
+body {
+  scrollbar-width: none;
+}
 
 .test {
   z-index: 1;background-color: transparent;

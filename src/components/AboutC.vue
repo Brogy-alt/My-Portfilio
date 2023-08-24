@@ -52,11 +52,11 @@
 
           <div class="col-6 col-sm-6 test">
             <i class="fa fa-phone" style="font-size: 15px"></i>
-            <span class="number" style="font-size: 16px">No.069 516 6923</span>
+            <span class="number" style="font-size: 16px"><span  style="padding-right: 7px;"></span>069 516 6923</span>
           </div>
           <div class="col-6 col-sm-6 test">
             <i class="fa fa-envelope" style="color: #222021; font-size: 17px"></i>
-            <span style="font-size: 16px">prodbrogy@gmail.com</span>
+            <span style="font-size: 16px"> <span style="padding-right: 7px;"></span>prodbrogy@gmail.com</span>
           </div>
         </div>
       </div>
