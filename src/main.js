@@ -4,5 +4,6 @@ import router from './router'
 import store from './store'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 createApp(App).use(store).use(router).mount('#app')

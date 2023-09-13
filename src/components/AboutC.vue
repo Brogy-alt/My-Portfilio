@@ -1,6 +1,6 @@
 <template>
 
-  <section id="about">
+  <section id="about" >
     <div class="skills-section">
       <div class="skills-header">
         <h2 class="skills-heading text-dark">ABOUT</h2>

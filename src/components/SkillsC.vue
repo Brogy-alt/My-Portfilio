@@ -233,23 +233,23 @@ export default {
         },
         {
           id: 2,
-          title: "Virtuverse (Capstone Project)",
-          image: "https://i.postimg.cc/nLMDZrSN/Capstone-project.png",
-          link: "https://virtuverse-capstone-proj-12470.web.app/",
-        },
-        {
-          id: 3,
           title: "My Webstore (Wordpress)",
           image:
             "https://i.postimg.cc/8P6NHzN7/Screenshot-2023-07-12-123409.png",
           link: "https://dev-prodbrogy-store.pantheonsite.io/",
         },
         {
+          id: 3,
+          title: "Cut Connect",
+          image: "https://i.postimg.cc/brstQrb3/Screenshot-2023-09-13-091217.png",
+          link: "hhttps://dev-cut-connect.pantheonsite.io/",
+        },
+        {
           id: 4,
-          title: "Team Randomizer",
+          title: "Country Stats",
           image:
-            "https://i.postimg.cc/zDhF8chH/Screenshot-2023-07-12-142056.png",
-          link: "https://split-the-squad-5920b.web.app/",
+            "https://i.postimg.cc/SNZq0YVB/Screenshot-2023-09-07-121003.png",
+          link: "https://country-stats-project.netlify.app/",
         },
         {
           id: 5,
