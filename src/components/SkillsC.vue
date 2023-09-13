@@ -240,13 +240,13 @@ export default {
         },
         {
           id: 3,
-          title: "Cut Connect",
+          title: "Cut Connect (Wordpress)",
           image: "https://i.postimg.cc/brstQrb3/Screenshot-2023-09-13-091217.png",
           link: "hhttps://dev-cut-connect.pantheonsite.io/",
         },
         {
           id: 4,
-          title: "Country Stats",
+          title: "Country Stats (javascript API)",
           image:
             "https://i.postimg.cc/SNZq0YVB/Screenshot-2023-09-07-121003.png",
           link: "https://country-stats-project.netlify.app/",
