@@ -226,41 +226,41 @@ export default {
       projects: [
         {
           id: 1,
-          title: "The KitCollective (Wordpress)",
+          title: "The KitCollective (WordPress)",
           image:
             "https://i.postimg.cc/HLZrBdLt/The-kit-collective-duo-word-press-project.png",
           link: "https://dev-thekitcollective.pantheonsite.io/",
         },
         {
           id: 2,
-          title: "My Webstore (Wordpress)",
+          title: "My Webstore (WordPress)",
           image:
             "https://i.postimg.cc/8P6NHzN7/Screenshot-2023-07-12-123409.png",
           link: "https://dev-prodbrogy-store.pantheonsite.io/",
         },
         {
           id: 3,
-          title: "Cut Connect (Wordpress)",
+          title: "Cut Connect (WordPress)",
           image: "https://i.postimg.cc/brstQrb3/Screenshot-2023-09-13-091217.png",
           link: "hhttps://dev-cut-connect.pantheonsite.io/",
         },
         {
           id: 4,
-          title: "Country Stats (javascript API)",
+          title: "Country Stats (JavaScript API)",
           image:
             "https://i.postimg.cc/SNZq0YVB/Screenshot-2023-09-07-121003.png",
           link: "https://country-stats-project.netlify.app/",
         },
         {
           id: 5,
-          title: "Login In & Out System (Php)",
+          title: "Login In & Out System (PHP)",
           image:
             "https://i.postimg.cc/Z5D7gwhF/Screenshot-2023-08-17-085240.png",
           link: "https://php-project2810.000webhostapp.com/",
         },
         {
           id: 6,
-          title: "Online Task Management Platform (Javascript)",
+          title: "Online Task Management Platform (JavaScript)",
           image:
             "https://i.postimg.cc/15BD74Zp/Screenshot-2023-08-17-084715.png",
           link: "https://to-do-notes-application.netlify.app/",
