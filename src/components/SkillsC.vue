@@ -245,6 +245,13 @@ export default {
           link: "hhttps://dev-cut-connect.pantheonsite.io/",
         },
         {
+          id: 6,
+          title: "4di Website (Client work WORDPRESS)",
+          image:
+            "https://i.postimg.cc/hGpJB03G/4DI.png",
+          link: "https://4diteam.lcstudio-incubate.co.za/",
+        },
+        {
           id: 4,
           title: "Country Stats (JavaScript API)",
           image:
@@ -257,14 +264,7 @@ export default {
           image:
             "https://i.postimg.cc/Z5D7gwhF/Screenshot-2023-08-17-085240.png",
           link: "https://php-project2810.000webhostapp.com/",
-        },
-        {
-          id: 6,
-          title: "Online Task Management Platform (JavaScript)",
-          image:
-            "https://i.postimg.cc/15BD74Zp/Screenshot-2023-08-17-084715.png",
-          link: "https://to-do-notes-application.netlify.app/",
-        },
+        }
       ],
     };
   },
