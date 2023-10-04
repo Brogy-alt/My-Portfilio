@@ -105,7 +105,7 @@ li , p{
     font-size: 2em;
     margin: 0% 1%;
 }
-@media (max-width:300px) {
+@media (min-width: 300px) and (max-width: 400px)  {
     .footer {
         text-align: left;
         padding: 5%;
@@ -119,10 +119,16 @@ li , p{
         margin: 0% 3%;
     }
 }
-@media(max-width: 300px) {
+@media(max-width: 300px)  {
     .footer .row .icons{
         gap: 40px;
         display: flex;
+    }
+}
+    @media(min-width: 300px) and (max-width:400px) {
+     .icons{
+        gap: 40px;
+        display: flex !important;
     }
 }
 </style>  

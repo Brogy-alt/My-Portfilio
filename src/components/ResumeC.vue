@@ -59,12 +59,7 @@
     </div>
   </div>
 </div>
-<div class="CV">
-  <a href="https://drive.google.com/file/d/1fom9I8LON1ktXqHlly5y8mHFTiKOG79-/view?usp=drive_link" class="linktr__goal r-link" target="_blank">Download My CV</a>
 
-  <!-- <button id="download-btn"  @click="DownloadCV ">Download My CV</button> -->
-
-</div>
 
 
       

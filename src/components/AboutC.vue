@@ -43,7 +43,7 @@
         fuel creativity and success.
       </p>
 
-      <div
+      <!-- <div
         class="container w-100 text-center"
         style="box-shadow: 0 5px 10px rgb(0, 0, 0); border-radius: 20px 20px 20px 20px;"
       >
@@ -59,36 +59,22 @@
             <span style="font-size: 16px"> <span style="padding-right: 7px;"></span>prodbrogy@gmail.com</span>
           </div>
         </div>
-      </div>
+      </div> -->
+
+      <button @click="toggleCollapsible" class="collapsible">Click On Me</button>
+  <div class="content"  v-if="collapsibleOpen">
+    <p style="font-size: 17px !important;">Email: brogangys2@gmail.com</p><br>
+    <p style="font-size: 17px !important;">Phone Number: 069 516 6923 </p><br>
+    <p style="font-size: 17px !important;">Located In: Belhar </p><br>
+
+  </div>
       
-      <!-- Social media icons (display flex) -->
-      <ul class="icons-about" style="font-size: 50px; list-style-type: none; display: flex; justify-content: center; gap: 4rem; padding-top: 1rem;">
-        <li>
-          <a href="https://www.linkedin.com/in/brogan-gys/" target="_blank">
-            <i id="linkedin" class="fa fa-linkedin text-dark"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/prodbrogy/" target="_blank">
-            <i id="ig" class="fa fa-instagram text-dark"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/channel/UC13tr7mMjdQfZRaoI0rbTgQ" target="_blank">
-            <i id="yt" class="fa fa-youtube text-dark"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/Brogy-alt" target="_blank">
-            <i id="github" class="fa-brands fa-github text-dark"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
+
 
     <!-- Optional: Add an empty column for spacing -->
     <div class="col-md-1"></div>
   </div>
+</div>
 </div>
   
 
@@ -154,13 +140,12 @@
   </section>
 </template>
 
-<script>
-//   import MenuC from '@/components/MenuC.vue'
 
+<script>
 export default {
   name: "HomeView",
   components: {
-    //   MenuC
+    // MenuC
   },
 
   data() {
@@ -186,7 +171,7 @@ export default {
           reference: "Colleague",
           image: "https://i.postimg.cc/4yrkQ6T5/imraan-black-and-white.jpg",
           message:
-            "Brogan has a good judge of character, he is a very friendly person to be around.He is also very passionate about his music producing, I view him as a smart and knowledgeable guy.",
+            "Brogan has a good judge of character, he is a very friendly person to be around. He is also very passionate about his music producing, I view him as a smart and knowledgeable guy.",
         },
         {
           name: "Cassidy Lawrence",
@@ -201,7 +186,7 @@ export default {
           reference: "Colleague",
           image: "https://i.postimg.cc/YSWY2wMN/mueen-black-and-white.jpg",
           message:
-            "Brogan is a kind-hearted, hard-working, humorous team player. His a passive guy. His design thinking is top-notch. His coding abilities only get better. He supports his peers and motivates others as well as himself.",
+            "Brogan is a kind-hearted, hard-working, humorous team player. He's a passive guy. His design thinking is top-notch. His coding abilities only get better. He supports his peers and motivates others as well as himself.",
         },
         {
           name: "Lazola Makubalo",
@@ -211,9 +196,36 @@ export default {
             "Brogan likes learning new stuff, he is a team player and he is someone who is always on time. I can assure you that he can be a great asset to your company.",
         },
       ],
+      collapsibleOpen: false, // Add this variable to control the collapsible content
     };
   },
+
+  methods: {
+    toggleCollapsible() {
+      // Toggle the value of collapsibleOpen to show/hide the content
+      this.collapsibleOpen = !this.collapsibleOpen;
+    },
+  },
+
+  mounted() {
+    // This code will run after the component is mounted
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+  },
 };
+
 </script>
 
 <style scoped>
@@ -251,6 +263,7 @@ h5 {
   position: relative;
   font-family: "Fjalla One", sans-serif;
 }
+
 
 .skills-header:after {
   content: "";
@@ -305,6 +318,33 @@ p {
   font-size: 40px;
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #000000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  font-family: "Fjalla One", sans-serif;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
 }
 
 #linkedin:hover {

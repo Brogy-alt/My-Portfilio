@@ -183,6 +183,7 @@
       <h2 class="projects-heading text-dark">PROJECTS</h2>
     </div>
 
+    <div class="scroll-container">
     <div class="project-container p-0 py-5">
       <div class="container">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
@@ -215,6 +216,7 @@
         </div>
       </div>
     </div>
+  </div>
   </div>
 </template>
 
@@ -438,32 +440,7 @@ p , a{
   padding: 0 !important;
 }
 
-button {
-  appearance: none;
-  background-color: transparent;
-  border: 0.125em solid #1D1D1D;
-  border-radius: 0.9375em;
-  box-sizing: border-box;
-  color: #3b3b3b;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Fjalla One", sans-serif;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: normal;
-  margin: 0;
-  min-height: 3.75em;
-  min-width: 0;
-  outline: none;
-  padding: 1em 2.3em;
-  text-align: center;
-  text-decoration: none;
-  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  will-change: transform;
-}
+
 
 button:disabled {
   pointer-events: none;
@@ -557,5 +534,6 @@ button:active {
     color: var(--uirLinkTextColor) !important;
     text-decoration: var(--uirLinkTextDecoration) !important;
 }
+
 
 </style>
