@@ -244,7 +244,7 @@ export default {
           id: 3,
           title: "Cut Connect (WordPress)",
           image: "https://i.postimg.cc/brstQrb3/Screenshot-2023-09-13-091217.png",
-          link: "hhttps://dev-cut-connect.pantheonsite.io/",
+          link: "https://dev-cut-connect.pantheonsite.io/",
         },
         {
           id: 6,
