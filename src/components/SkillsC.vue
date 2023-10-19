@@ -178,7 +178,7 @@
   </section> -->
 
   <!-- Projects Section -->
-  <div class="projects-section">
+  <div class="projects-section" style="padding-top: 5rem">
     <div class="projects-header">
       <h2 class="projects-heading text-dark">PROJECTS</h2>
     </div>

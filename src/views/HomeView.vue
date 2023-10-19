@@ -3,10 +3,10 @@
     <div>
       <header>
         <div class="test">
-          <nav class="navbar navbar-expand-lg sticky">
-            <div class="container-fluid bg-transparent">
+          <nav class="navbar navbar-expand-lg sticky mx-auto">
+            <div class="container-fluid ">
               <a
-                class="navbar-brand bg-transparent text-light"
+                class="navbar-brand bg-transparent text-light "
                 style="font-family: 'Fjalla One', sans-serif; font-size: 25px"
                 href="#"
                 >.PORTFOLIO</a
@@ -148,12 +148,13 @@ export default {
 
 main {
   min-height: 100vh;
-  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1)),
-  url(https://i.postimg.cc/W4MzbZ0f/ashkan-forouzani-mb-Lr6-NEat-MI-unsplash.jpg);
+  background: 
+  url(https://i.postimg.cc/qRgQM2MY/Group-2-1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: auto;
+ 
 }
 
 .text-hi {
@@ -357,11 +358,7 @@ a.linktr__goal.r-link{
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
 
 .navbar,
-.container-fluid {
-  background-color: transparent;
-  /* position: relative; */
-  backdrop-filter: blur(5px);
-}
+
 
 .navbar-toggler,
 .navbar-toggler-icon {

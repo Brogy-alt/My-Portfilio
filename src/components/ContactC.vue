@@ -82,7 +82,7 @@
           <div class="button" style="padding-top: 1rem;">
 
             <input  class="linktr__goal r-link" target="_blank" type="submit" style="  background-color: #1D1D1D;
-    border-radius: 20px;" value="Submit" />
+    border-radius: 40px;" value="Submit" />
           </div>
 
           <br />
